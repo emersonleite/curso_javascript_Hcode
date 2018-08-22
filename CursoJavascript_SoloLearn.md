@@ -1327,6 +1327,10 @@ Isso permite que você crie apenas um único objeto .
 Às vezes, precisamos definir um " **tipo de** **objeto** " que possa ser usado para criar vários objetos de um único tipo.
 A maneira padrão de criar um " tipo de objeto " é usar uma **função** **construtora de** objeto.
 
+```javascript
+
+A função acima (person) é um construtor de objeto  , que recebe parâmetros e os atribui às propriedadesdo objeto.
+
 
 
 
@@ -1348,11 +1352,11 @@ A maneira padrão de criar um " tipo de objeto " é usar uma **função** **cons
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI4NjkwMjMsMTM4MzcxNDQ3OCwzNz
-g5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzNDky
-MSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwxOD
-MxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC01MDQ5NzEx
-ODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1NDA1MzgsMT
-Q5NTcxNTU4OCwzNTkwMjM4MTQsLTE5MjE5NjM0NDIsNjYzNDQ2
-Nzg5XX0=
+eyJoaXN0b3J5IjpbMTc0OTI3ODYyOCwxMzgzNzE0NDc4LDM3OD
+k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
+LDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4Mz
+EwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUwNDk3MTE4
+OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0MDUzOCwxND
+k1NzE1NTg4LDM1OTAyMzgxNCwtMTkyMTk2MzQ0Miw2NjM0NDY3
+ODldfQ==
 -->
