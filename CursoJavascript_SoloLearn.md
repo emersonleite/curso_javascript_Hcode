@@ -1504,15 +1504,17 @@ Essa sintaxe declara uma matriz chamada **courses** , que armazena três valores
 
 Você se refere a um elemento de matriz referindo-se ao **número** do **índice** escrito **entre colchetes**.  
 Essa instrução acessa o valor do primeiro elemento em **cursos** e altera o valor do segundo elemento.
-``
+
+```javascript
 var courses = new Array("HTML", "CSS", "JS");  
-var course = courses**[0]**; // HTML  
-courses**[1]** = "C++"; //Changes the second element
+var course = courses[0]; // HTML  
+courses[1] = "C++"; //Changes the second element
+```
 
 [0] é o primeiro elemento em uma matriz . [1] é o segundo. Os índices de matriz começam com **0**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTI5NjE0MywtMTYyNTkxNjQxNSwtMj
+eyJoaXN0b3J5IjpbLTI2MDIwMTAwMCwtMTYyNTkxNjQxNSwtMj
 A5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5
 NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOT
 Y4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0
