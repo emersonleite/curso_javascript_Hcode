@@ -1374,7 +1374,9 @@ Acesse as propriedades do objeto usando a **sintaxe de ponto** , como você fez 
 
 ![](https://api.sololearn.com/DownloadFile?id=2766)
 
-
+## Inicialização de Objetos
+  
+Use o **literal de** **objeto** ou a sintaxe do **inicializador** para criar objetos únicos.
 
 
 
@@ -1396,11 +1398,11 @@ Acesse as propriedades do objeto usando a **sintaxe de ponto** , como você fez 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzOD
-M3MTQ0NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2
-LC0xOTI5MzQ5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNT
-ExMzk1NzEsMTgzMTA1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3
-OCwtNTA0OTcxMTg5LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNT
-QwNTQwNTM4LDE0OTU3MTU1ODgsMzU5MDIzODE0LC0xOTIxOTYz
-NDQyXX0=
+eyJoaXN0b3J5IjpbMTk4MDYzNDM2NiwxOTIwMDk2ODczLDE0MT
+Y1MTQxMTYsMTM4MzcxNDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEs
+LTE1MjEzNjQ5NjYsLTE5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwOD
+U5MDczOTgsMTI1MTEzOTU3MSwxODMxMDU0MDMzLC02MzIxNjY4
+MzYsLTY1MzQ3MDc4LC01MDQ5NzExODksMTQwNTA2NzE0NSwyMD
+M2Mjk1MTEwLC01NDA1NDA1MzgsMTQ5NTcxNTU4OCwzNTkwMjM4
+MTRdfQ==
 -->
