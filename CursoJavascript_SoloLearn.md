@@ -1314,7 +1314,15 @@ Métodos são funções que são armazenadas como propriedades do objeto .
 
 ## O construtor de objetos
 
+# O construtor de objetos
 
+ Na lição anterior, criamos um objeto usando a sintaxe do **literal de** **objeto** (ou inicializador).
+  
+```javascript
+var person = {  
+nome: "João", idade: 42, favColor: "verde"  
+};
+```
 
 
 
@@ -1337,7 +1345,7 @@ Métodos são funções que são armazenadas como propriedades do objeto .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MDgyMDY5MCwxMzgzNzE0NDc4LDM3OD
+eyJoaXN0b3J5IjpbMTYyNDYwNzU2MiwxMzgzNzE0NDc4LDM3OD
 k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
 LDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4Mz
 EwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUwNDk3MTE4
