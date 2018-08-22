@@ -1399,11 +1399,22 @@ age: 21
 ```
 
 Não importa como o objeto é criado, a sintaxe para acessar as propriedades e os métodos não é alterada.
-``
+
+```javascript
 document.write(John.age);  
 //Outputs 25
+```
+
+[Experimente você mesmo](https://code.sololearn.com/691/#js)
 
 
+## Métodos
+
+  
+  
+**Métodos** são funções que são armazenadas como propriedades do objeto .  
+  
+Use a seguinte sintaxe para criar um método de objeto  :
 
 
 
@@ -1419,11 +1430,11 @@ document.write(John.age);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NjU3MzcxOCwtMTc5NDAyMzY4NSwxNj
-g1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0
-NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMT
-kyOTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5
-NTcxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLT
-UwNDk3MTE4OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0
-MDUzOF19
+eyJoaXN0b3J5IjpbMjU4NzM3NTE3LC0xNzk0MDIzNjg1LDE2OD
+U0NTQyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0
+NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOT
+I5MzQ5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1
+NzEsMTgzMTA1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNT
+A0OTcxMTg5LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNTQwNTQw
+NTM4XX0=
 -->
