@@ -1513,12 +1513,23 @@ courses[1] = "C++"; //Changes the second element
 
 [0] é o primeiro elemento em uma matriz . [1] é o segundo. Os índices de matriz começam com **0**.
 
+Tentando acessar um índice fora da matriz , retorna o valor **indefinido** .
+
+```
+var courses = new Array("HTML", "CSS", "JS");  
+document.write(courses[10]);  
+//Outputs "**undefined**"
+```
+[Experimente você mesmo](https://code.sololearn.com/694/#js)
+
+  
+Nossa matriz de **cursos** tem apenas 3 elementos, então o 10º índice, que é o 11º elemento, não existe (é indefinido ).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2MDIwMTAwMCwtMTYyNTkxNjQxNSwtMj
-A5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5
-NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOT
-Y4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0
-NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIxLDE2OTk4OD
-QyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4MzEwNTQwMzMs
-LTYzMjE2NjgzNl19
+eyJoaXN0b3J5IjpbMTI0OTAxNDk1OCwtMjYwMjAxMDAwLC0xNj
+I1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYz
+NjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2ODU0NT
+QyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0Nzgs
+Mzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5Mz
+Q5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEs
+MTgzMTA1NDAzM119
 -->
