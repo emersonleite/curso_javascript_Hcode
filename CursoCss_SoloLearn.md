@@ -32,13 +32,23 @@ Para usar um estilo in-line, adicione o **atributo de estilo** à **tag relevant
   
 O exemplo abaixo mostra como criar um parágrafo com um plano de fundo cinza e texto branco:
 
-<p **style**="color:white; background-color:gray;">  
+```css
+<p style="color:white; background-color:gray;">  
 This is an example of inline styling.  
 </p>
+```
 
-**Result:**![](https://api.sololearn.com/DownloadFile?id=2581)
+**Result:**
+
+![](https://api.sololearn.com/DownloadFile?id=2581)
+
+
+
+
+
+
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NDYxMDEwNV19
+eyJoaXN0b3J5IjpbMzUyNzM5MTU0XX0=
 -->
