@@ -1481,16 +1481,35 @@ Chame o método pelo **nome** da **propriedade que** você especificou na funç�
 
 # Core Objects
 
+# Matrizes JavaScript
+   
+**Arrays** armazenam vários valores em uma única variável .  
+  
+Para armazenar três nomes de cursos, você precisa de três variáveis.
+```javascript
+var course1 = "HTML";  
+var course2 = "CSS";  
+var course3 = "JS";  
+```
+
+Mas e se você tivesse 500 cursos? A solução é uma **matriz** .
+
+```javascript
+var courses = new Array ("HTML", "CSS", "JS");  
+```
+
+Essa sintaxe declara uma matriz chamada **courses** , que armazena três valores ou elementos.
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4MTkyMDg5MiwtMjA5MDQyMjY4NiwtMT
-c0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5
-NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxND
-ExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUy
-MTM2NDk2NiwtMTkyOTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNz
-M5OCwxMjUxMTM5NTcxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNiwt
-NjUzNDcwNzhdfQ==
+eyJoaXN0b3J5IjpbLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLT
+E3NDIyNTYxNjgsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3
+OTQwMjM2ODUsMTY4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MT
+QxMTYsMTM4MzcxNDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1
+MjEzNjQ5NjYsLTE5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MD
+czOTgsMTI1MTEzOTU3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYs
+LTY1MzQ3MDc4XX0=
 -->
