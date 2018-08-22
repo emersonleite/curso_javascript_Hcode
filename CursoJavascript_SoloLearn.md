@@ -1244,7 +1244,7 @@ O resultado quando o usuário clica em **Cancelar** :
 ![](https://api.sololearn.com/DownloadFile?id=2764)
 
 
-# Apresentando Objetos
+# Objetos
 
 ## Objetos JavaScript
 
@@ -1314,8 +1314,6 @@ Métodos são funções que são armazenadas como propriedades do objeto .
 
 ## O construtor de objetos
 
-# O construtor de objetos
-
  Na lição anterior, criamos um objeto usando a sintaxe do **literal de** **objeto** (ou inicializador).
   
 ```javascript
@@ -1345,11 +1343,11 @@ nome: "João", idade: 42, favColor: "verde"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDYwNzU2MiwxMzgzNzE0NDc4LDM3OD
-k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
-LDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4Mz
-EwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUwNDk3MTE4
-OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0MDUzOCwxND
-k1NzE1NTg4LDM1OTAyMzgxNCwtMTkyMTk2MzQ0Miw2NjM0NDY3
-ODldfQ==
+eyJoaXN0b3J5IjpbMzMwMzcwMzc4LDEzODM3MTQ0NzgsMzc4OT
+g4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5MzQ5MjEs
+MTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEsMTgzMT
+A1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNTA0OTcxMTg5
+LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNTQwNTQwNTM4LDE0OT
+U3MTU1ODgsMzU5MDIzODE0LC0xOTIxOTYzNDQyLDY2MzQ0Njc4
+OV19
 -->
