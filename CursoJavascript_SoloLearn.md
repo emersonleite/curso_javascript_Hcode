@@ -1359,12 +1359,14 @@ p1_ e _p2_ são agora objetos do tipo **person** . Suas propriedades são atribu
   
 Considere o seguinte exemplo.
 
+```javascript
 function person (name, age) {  
 this.name = name;  
 this.age = age;  
 }  
 var John = new person("John", 25);  
 var James = new person("James", 21);
+```
 
 [Tente você mesmo](https://code.sololearn.com/690/#js)
 
@@ -1392,8 +1394,9 @@ Acesse as propriedades do objeto usando a **sintaxe de ponto** , como você fez 
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyODU0ODUwMiwxNDE2NTE0MTE2LDEzOD
+eyJoaXN0b3J5IjpbMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzOD
 M3MTQ0NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2
 LC0xOTI5MzQ5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNT
 ExMzk1NzEsMTgzMTA1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3
