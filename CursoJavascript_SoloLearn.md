@@ -1353,7 +1353,9 @@ document.write(p2.name); // Outputs "Amy"
 
 [Experimente você mesmo](https://code.sololearn.com/689/#js)
 
-p1_ e _p2_ são agora objetos do tipo **pessoa** . Suas propriedades são atribuídas aos valores correspondentes.
+p1_ e _p2_ são agora objetos do tipo **person** . Suas propriedades são atribuídas aos valores correspondentes.
+
+
 
 
 
@@ -1378,11 +1380,11 @@ p1_ e _p2_ são agora objetos do tipo **pessoa** . Suas propriedades são atribu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc0OTA3NzM0LDEzODM3MTQ0NzgsMzc4OT
-g4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5MzQ5MjEs
-MTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEsMTgzMT
-A1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNTA0OTcxMTg5
-LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNTQwNTQwNTM4LDE0OT
-U3MTU1ODgsMzU5MDIzODE0LC0xOTIxOTYzNDQyLDY2MzQ0Njc4
-OV19
+eyJoaXN0b3J5IjpbMTQxNjUxNDExNiwxMzgzNzE0NDc4LDM3OD
+k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
+LDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4Mz
+EwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUwNDk3MTE4
+OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0MDUzOCwxND
+k1NzE1NTg4LDM1OTAyMzgxNCwtMTkyMTk2MzQ0Miw2NjM0NDY3
+ODldfQ==
 -->
