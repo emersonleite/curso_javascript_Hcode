@@ -1355,9 +1355,22 @@ document.write(p2.name); // Outputs "Amy"
 
 p1_ e _p2_ são agora objetos do tipo **person** . Suas propriedades são atribuídas aos valores correspondentes.
 
+## Criando Objetos  
+  
+Considere o seguinte exemplo.
 
+function person (name, age) {  
+this.name = name;  
+this.age = age;  
+}  
+var John = new person("John", 25);  
+var James = new person("James", 21);
 
+[Tente você mesmo](https://code.sololearn.com/690/#js)
 
+Acesse as propriedades do objeto usando a **sintaxe de ponto** , como você fez antes.
+
+![](https://api.sololearn.com/DownloadFile?id=2766)
 
 
 
@@ -1380,11 +1393,11 @@ p1_ e _p2_ são agora objetos do tipo **person** . Suas propriedades são atribu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNjUxNDExNiwxMzgzNzE0NDc4LDM3OD
-k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
-LDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4Mz
-EwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUwNDk3MTE4
-OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0MDUzOCwxND
-k1NzE1NTg4LDM1OTAyMzgxNCwtMTkyMTk2MzQ0Miw2NjM0NDY3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTIyODU0ODUwMiwxNDE2NTE0MTE2LDEzOD
+M3MTQ0NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2
+LC0xOTI5MzQ5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNT
+ExMzk1NzEsMTgzMTA1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3
+OCwtNTA0OTcxMTg5LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNT
+QwNTQwNTM4LDE0OTU3MTU1ODgsMzU5MDIzODE0LC0xOTIxOTYz
+NDQyXX0=
 -->
