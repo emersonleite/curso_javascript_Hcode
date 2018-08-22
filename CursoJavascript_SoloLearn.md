@@ -1443,6 +1443,16 @@ p.changeName("John");
 No exemplo acima, definimos um método chamado **changeName** para nossa pessoa, que é uma função, que recebe um **nome de** parâmetro e o atribui à propriedade **name** do objeto .  
 **this.name** refere-se à propriedade name do objeto.
 
+``
+function person(name, age) {  
+this.name= name;  
+this.age = age;  
+**this.yearOfBirth = bornYear;**  
+}  
+function bornYear() {  
+return 2016 - this.age;  
+}
+
 
 
 
@@ -1450,11 +1460,11 @@ No exemplo acima, definimos um método chamado **changeName** para nossa pessoa,
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMT
-Y4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4Mzcx
-NDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLT
-E5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEz
-OTU3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC
-01MDQ5NzExODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1
-NDA1MzhdfQ==
+eyJoaXN0b3J5IjpbMTUzNjAxNTYzOSwtMjA5NjY1OTIxNywtMT
+c5NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUx
+NDExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMT
+UyMTM2NDk2NiwtMTkyOTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkw
+NzM5OCwxMjUxMTM5NTcxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNi
+wtNjUzNDcwNzgsLTUwNDk3MTE4OSwxNDA1MDY3MTQ1LDIwMzYy
+OTUxMTBdfQ==
 -->
