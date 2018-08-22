@@ -1526,13 +1526,27 @@ document.write(courses[10]);
   
 Nossa matriz de **cursos** tem apenas 3 elementos, então o 10º índice, que é o 11º elemento, não existe (é indefinido ).
 
+## Criando Matrizes
+  
+Você também pode declarar uma matriz , informar o número de elementos que ela armazenará e adicionar os elementos posteriormente.
+
+```javascript
+var courses = new Array(**3**);  
+courses[0] = "HTML";  
+courses[1] = "CSS";  
+courses[2] = "JS";
+```
+[Tente você mesmo](https://code.sololearn.com/696/#js)
+
+Uma matriz é um tipo especial de **objeto** .  Um array usa **números** para acessar seus elementos e um objeto usa **nomes** para acessar seus membros.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTQ0NzAyNTMsLTI2MDIwMTAwMCwtMT
-YyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2
-MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1ND
-U0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4
-LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOT
-M0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcx
-LDE4MzEwNTQwMzNdfQ==
+eyJoaXN0b3J5IjpbMTk5MzMwODExNiwtMjYwMjAxMDAwLC0xNj
+I1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYz
+NjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2ODU0NT
+QyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0Nzgs
+Mzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5Mz
+Q5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEs
+MTgzMTA1NDAzM119
 -->
