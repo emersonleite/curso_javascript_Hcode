@@ -1408,18 +1408,21 @@ document.write(John.age);
 [Experimente você mesmo](https://code.sololearn.com/691/#js)
 
 
-## Métodos
-
-  
+## Métodos  
   
 **Métodos** são funções que são armazenadas como propriedades do objeto .  
   
 Use a seguinte sintaxe para criar um método de objeto  :
 
+methodName: function () {linhas de código}
 
+Acessar um método de objeto usando a seguinte sintaxe:
 
+objectName.methodName ()
 
+Um método é uma função pertencente a um objeto . Pode ser referenciado usando a palavra **-**chave **this** . A palavra-chave **this** é usada como uma referência ao objeto atual , o que significa que você pode acessar as propriedades e métodos dos objetos usando-a. Definir métodos é feito dentro do construtor.
 
+**Por exemplo:**
 
 
 
@@ -1430,11 +1433,11 @@ Use a seguinte sintaxe para criar um método de objeto  :
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NzM3NTE3LC0xNzk0MDIzNjg1LDE2OD
-U0NTQyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0
-NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOT
-I5MzQ5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1
-NzEsMTgzMTA1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNT
-A0OTcxMTg5LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNTQwNTQw
-NTM4XX0=
+eyJoaXN0b3J5IjpbLTEzNDQ0MDA5NDUsLTE3OTQwMjM2ODUsMT
+Y4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4Mzcx
+NDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLT
+E5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEz
+OTU3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC
+01MDQ5NzExODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1
+NDA1MzhdfQ==
 -->
