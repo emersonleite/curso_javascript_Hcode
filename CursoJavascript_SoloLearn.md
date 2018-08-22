@@ -1424,7 +1424,23 @@ Um método é uma função pertencente a um objeto . Pode ser referenciado usand
 
 **Por exemplo:**
 
+```javascript
+function person(name, age) {  
+this.name = name;  
+this.age = age;  
+this.changeName = function (name) {  
+this.name = name;  
+}
+}  
+ ```
+var p = new person("David", 21);  
+p.changeName("John");
+//Now p.name equals to "John"
 
+[Experimente você mesmo](https://code.sololearn.com/692/#js)
+
+No exemplo acima, definimos um método chamado **changeName** para nossa pessoa, que é uma função, que recebe um **nome de** parâmetro e o atribui à propriedade **name** do objeto .  
+**this.name** refere-se à propriedade name do objeto.
 
 
 
@@ -1433,11 +1449,11 @@ Um método é uma função pertencente a um objeto . Pode ser referenciado usand
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDQ0MDA5NDUsLTE3OTQwMjM2ODUsMT
-Y4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4Mzcx
-NDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLT
-E5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEz
-OTU3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC
-01MDQ5NzExODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1
-NDA1MzhdfQ==
+eyJoaXN0b3J5IjpbNjg5NzgzNTE3LC0xNzk0MDIzNjg1LDE2OD
+U0NTQyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0
+NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOT
+I5MzQ5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1
+NzEsMTgzMTA1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNT
+A0OTcxMTg5LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNTQwNTQw
+NTM4XX0=
 -->
