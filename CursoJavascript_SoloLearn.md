@@ -1328,8 +1328,16 @@ Isso permite que você crie apenas um único objeto .
 A maneira padrão de criar um " tipo de objeto " é usar uma **função** **construtora de** objeto.
 
 ```javascript
+function person(name, age, color) {  
+this.name = name;  
+this.age = age;  
+this.favColor = color;  
+}
+```
 
 A função acima (person) é um construtor de objeto  , que recebe parâmetros e os atribui às propriedadesdo objeto.
+
+A palavra**-**chave **this** refere-se ao **objeto** **atual**. Note que** isso**não é uma variável.É uma palavra-chave e seu valor não pode ser alterado.
 
 
 
@@ -1352,11 +1360,11 @@ A função acima (person) é um construtor de objeto  , que recebe parâmetros e
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0OTI3ODYyOCwxMzgzNzE0NDc4LDM3OD
-k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
-LDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4Mz
-EwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUwNDk3MTE4
-OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0MDUzOCwxND
-k1NzE1NTg4LDM1OTAyMzgxNCwtMTkyMTk2MzQ0Miw2NjM0NDY3
-ODldfQ==
+eyJoaXN0b3J5IjpbLTE5NjM3NTMxNDgsMTM4MzcxNDQ3OCwzNz
+g5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzNDky
+MSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwxOD
+MxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC01MDQ5NzEx
+ODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1NDA1MzgsMT
+Q5NTcxNTU4OCwzNTkwMjM4MTQsLTE5MjE5NjM0NDIsNjYzNDQ2
+Nzg5XX0=
 -->
