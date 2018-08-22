@@ -1479,12 +1479,14 @@ document.write(p.yearOfBirth());
 
 Chame o método pelo **nome** da **propriedade que** você especificou na função construtora, em vez do nome da função.
 
-https://code.sololearn.com/W0V32EfJNUBX
+# Core Objects
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTMxMTA0NSwtMjA5MDQyMjY4NiwtMT
+eyJoaXN0b3J5IjpbMjA4MTkyMDg5MiwtMjA5MDQyMjY4NiwtMT
 c0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5
 NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxND
 ExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUy
