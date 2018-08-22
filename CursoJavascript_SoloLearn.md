@@ -960,6 +960,7 @@ document.write (i + "<br />");
 O valor 5 não é impresso, porque **continue** ignora essa iteração do loop
 
 # Funções
+
 ## Funções JavaScript
   
   
@@ -1343,7 +1344,7 @@ nome: "João", idade: 42, favColor: "verde"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMzcwMzc4LDEzODM3MTQ0NzgsMzc4OT
+eyJoaXN0b3J5IjpbOTM4MTY3MTMyLDEzODM3MTQ0NzgsMzc4OT
 g4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5MzQ5MjEs
 MTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEsMTgzMT
 A1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNTA0OTcxMTg5
