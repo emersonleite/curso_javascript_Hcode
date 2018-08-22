@@ -1540,13 +1540,17 @@ courses[2] = "JS";
 
 Uma matriz é um tipo especial de **objeto** .  Um array usa **números** para acessar seus elementos e um objeto usa **nomes** para acessar seus membros.
 
+Matrizes JavaScript são dinâmicas, portanto você pode declarar uma matriz e não passar nenhum argumento com o construtor Array () . Você pode então adicionar os elementos dinamicamente.
 
+[Tente você mesmo](https://code.sololearn.com/695/#js)
+
+Você pode adicionar quantos elementos precisar.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzMwODExNiwtMjYwMjAxMDAwLC0xNj
-I1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYz
-NjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2ODU0NT
-QyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0Nzgs
-Mzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5Mz
-Q5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEs
-MTgzMTA1NDAzM119
+eyJoaXN0b3J5IjpbOTQ5NDUxNTM1LC0yNjAyMDEwMDAsLTE2Mj
+U5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5NjM2
+NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4NTQ1ND
+IzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxNDQ3OCwz
+Nzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzND
+kyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwx
+ODMxMDU0MDMzXX0=
 -->
