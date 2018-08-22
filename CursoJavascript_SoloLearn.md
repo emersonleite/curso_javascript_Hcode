@@ -1562,15 +1562,15 @@ Para maior simplicidade, legibilidade e velocidade de execução, você também 
 [Tente você mesmo](https://code.sololearn.com/697/#js)
 
   
-Isso resulta na mesma matriz como aquela criada com a **nova** sintaxe **Array ()** .  
+Isso resulta na mesma matriz como aquela criada com o a **nova** sintaxe **Array ()** .  
 Você pode acessar e modificar os elementos da matriz usando o número do índice, como fez antes.  
 A sintaxe **literal da** **matriz** é a maneira recomendada de declarar matrizes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzMzg0NTM2LC0yNjAyMDEwMDAsLTE2Mj
-U5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5NjM2
-NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4NTQ1ND
-IzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxNDQ3OCwz
-Nzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzND
-kyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwx
-ODMxMDU0MDMzXX0=
+eyJoaXN0b3J5IjpbLTY0Mjc2ODc5MSw2OTMzODQ1MzYsLTI2MD
+IwMTAwMCwtMTYyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1
+NjE2OCwtMTk2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMz
+Y4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwx
+MzgzNzE0NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2ND
+k2NiwtMTkyOTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwx
+MjUxMTM5NTcxXX0=
 -->
