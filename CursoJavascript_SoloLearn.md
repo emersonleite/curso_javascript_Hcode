@@ -1456,19 +1456,36 @@ return 2016 - this.age;
 }
 ```
 
+## Métodos
 
+   
+Chame o método como de costume.
 
+```javascript
+function person(name, age) {  
+this.name= name;  
+this.age = age;  
+this.yearOfBirth = bornYear;  
+}  
+function bornYear() {  
+return 2016 - this.age;  
+}  
+  
+var p = new person("A", 22);  
+document.write(p.yearOfBirth());  
+// Outputs 1994
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDIyNTYxNjgsLTE5NjM2NjQxMzIsLT
-IwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4NTQ1NDIzOSwxOTIw
-MDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxNDQ3OCwzNzg5ODgyNz
-YsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzNDkyMSwxNjk5
-ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwxODMxMDU0MD
-MzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC01MDQ5NzExODksMTQw
-NTA2NzE0NV19
+eyJoaXN0b3J5IjpbMTA1MDU1Mzk3MywtMTc0MjI1NjE2OCwtMT
+k2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1
+NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0ND
+c4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTky
+OTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NT
+cxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUw
+NDk3MTE4OV19
 -->
