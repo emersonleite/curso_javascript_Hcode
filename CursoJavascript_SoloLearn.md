@@ -34,7 +34,7 @@ Vamos usar o JavaScript para imprimir "Hello World" no navegador.
 <head> </ head>  
 <corpo>  
 <script>  
-**document.write** ("Hello World!");  
+document.write ("Hello World!");  
 </ script>  
 </ body>  
 </ html>
@@ -1337,11 +1337,11 @@ Métodos são funções que são armazenadas como propriedades do objeto .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MzcxNDQ3OCwzNzg5ODgyNzYsNDQyOD
-I0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzNDkyMSwxNjk5ODg0Mjc1
-LDEwODU5MDczOTgsMTI1MTEzOTU3MSwxODMxMDU0MDMzLC02Mz
-IxNjY4MzYsLTY1MzQ3MDc4LC01MDQ5NzExODksMTQwNTA2NzE0
-NSwyMDM2Mjk1MTEwLC01NDA1NDA1MzgsMTQ5NTcxNTU4OCwzNT
-kwMjM4MTQsLTE5MjE5NjM0NDIsNjYzNDQ2Nzg5LDYwMzE4ODMw
-Nl19
+eyJoaXN0b3J5IjpbLTk5MDgyMDY5MCwxMzgzNzE0NDc4LDM3OD
+k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
+LDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4Mz
+EwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUwNDk3MTE4
+OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0MDUzOCwxND
+k1NzE1NTg4LDM1OTAyMzgxNCwtMTkyMTk2MzQ0Miw2NjM0NDY3
+ODldfQ==
 -->
