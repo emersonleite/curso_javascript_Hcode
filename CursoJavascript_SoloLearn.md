@@ -1323,6 +1323,10 @@ nome: "João", idade: 42, favColor: "verde"
 };
 ```
 
+Isso permite que você crie apenas um único objeto .
+Às vezes, precisamos definir um " **tipo de** **objeto** " que possa ser usado para criar vários objetos de um único tipo.
+A maneira padrão de criar um " tipo de objeto " é usar uma **função** **construtora de** objeto.
+
 
 
 
@@ -1344,11 +1348,11 @@ nome: "João", idade: 42, favColor: "verde"
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM4MTY3MTMyLDEzODM3MTQ0NzgsMzc4OT
-g4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5MzQ5MjEs
-MTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEsMTgzMT
-A1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNTA0OTcxMTg5
-LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNTQwNTQwNTM4LDE0OT
-U3MTU1ODgsMzU5MDIzODE0LC0xOTIxOTYzNDQyLDY2MzQ0Njc4
-OV19
+eyJoaXN0b3J5IjpbLTE5MDI4NjkwMjMsMTM4MzcxNDQ3OCwzNz
+g5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzNDky
+MSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwxOD
+MxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC01MDQ5NzEx
+ODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1NDA1MzgsMT
+Q5NTcxNTU4OCwzNTkwMjM4MTQsLTE5MjE5NjM0NDIsNjYzNDQ2
+Nzg5XX0=
 -->
