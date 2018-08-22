@@ -1443,16 +1443,18 @@ p.changeName("John");
 No exemplo acima, definimos um método chamado **changeName** para nossa pessoa, que é uma função, que recebe um **nome de** parâmetro e o atribui à propriedade **name** do objeto .  
 **this.name** refere-se à propriedade name do objeto.
 
-``
+Você também pode definir a função fora da função de construtor e associá-la ao objeto .
+
+```javascript
 function person(name, age) {  
 this.name= name;  
 this.age = age;  
-**this.yearOfBirth = bornYear;**  
+this.yearOfBirth = bornYear;  
 }  
 function bornYear() {  
 return 2016 - this.age;  
 }
-
+```
 
 
 
@@ -1460,11 +1462,11 @@ return 2016 - this.age;
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNjAxNTYzOSwtMjA5NjY1OTIxNywtMT
-c5NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUx
-NDExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMT
-UyMTM2NDk2NiwtMTkyOTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkw
-NzM5OCwxMjUxMTM5NTcxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNi
-wtNjUzNDcwNzgsLTUwNDk3MTE4OSwxNDA1MDY3MTQ1LDIwMzYy
-OTUxMTBdfQ==
+eyJoaXN0b3J5IjpbLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLT
+E3OTQwMjM2ODUsMTY4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1
+MTQxMTYsMTM4MzcxNDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLT
+E1MjEzNjQ5NjYsLTE5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5
+MDczOTgsMTI1MTEzOTU3MSwxODMxMDU0MDMzLC02MzIxNjY4Mz
+YsLTY1MzQ3MDc4LC01MDQ5NzExODksMTQwNTA2NzE0NSwyMDM2
+Mjk1MTEwXX0=
 -->
