@@ -1378,8 +1378,10 @@ Acesse as propriedades do objeto usando a **sintaxe de ponto** , como você fez 
   
 Use o **literal de** **objeto** ou a sintaxe do **inicializador** para criar objetos únicos.
 
-
-
+```javascript
+var John = {name: "John", age: 25};  
+var James = {name: "James", age: 21};
+```
 
 
 
@@ -1398,7 +1400,7 @@ Use o **literal de** **objeto** ou a sintaxe do **inicializador** para criar obj
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDYzNDM2NiwxOTIwMDk2ODczLDE0MT
+eyJoaXN0b3J5IjpbMTY4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MT
 Y1MTQxMTYsMTM4MzcxNDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEs
 LTE1MjEzNjQ5NjYsLTE5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwOD
 U5MDczOTgsMTI1MTEzOTU3MSwxODMxMDU0MDMzLC02MzIxNjY4
