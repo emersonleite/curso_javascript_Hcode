@@ -1515,21 +1515,24 @@ courses[1] = "C++"; //Changes the second element
 
 Tentando acessar um índice fora da matriz , retorna o valor **indefinido** .
 
-```
+```javascript 
 var courses = new Array("HTML", "CSS", "JS");  
 document.write(courses[10]);  
-//Outputs "**undefined**"
+//Outputs "undefined"
 ```
+
 [Experimente você mesmo](https://code.sololearn.com/694/#js)
 
   
 Nossa matriz de **cursos** tem apenas 3 elementos, então o 10º índice, que é o 11º elemento, não existe (é indefinido ).
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0OTAxNDk1OCwtMjYwMjAxMDAwLC0xNj
-I1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYz
-NjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2ODU0NT
-QyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0Nzgs
-Mzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5Mz
-Q5MjEsMTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEs
-MTgzMTA1NDAzM119
+eyJoaXN0b3J5IjpbLTE5NTQ0NzAyNTMsLTI2MDIwMTAwMCwtMT
+YyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2
+MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1ND
+U0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4
+LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOT
+M0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcx
+LDE4MzEwNTQwMzNdfQ==
 -->
