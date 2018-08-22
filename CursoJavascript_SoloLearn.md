@@ -1381,12 +1381,27 @@ Use o **literal de** **objeto** ou a sintaxe do **inicializador** para criar obj
 ```javascript
 var John = {name: "John", age: 25};  
 var James = {name: "James", age: 21};
-
-
 ```
 
+## Usando inicializadores de objeto
+  
+Espaços e quebras de linha não são importantes. Uma definição de objeto pode abranger várias linhas.
 
+```javascript
+var John = {  
+name: "John",  
+age: 25  
+};  
+var James = {  
+name: "James",  
+age: 21  
+};
+```
 
+Não importa como o objeto é criado, a sintaxe para acessar as propriedades e os métodos não é alterada.
+``
+document.write(John.age);  
+//Outputs 25
 
 
 
@@ -1404,11 +1419,11 @@ var James = {name: "James", age: 21};
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA4MjA5NjEsLTE3OTQwMjM2ODUsMT
-Y4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4Mzcx
-NDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLT
-E5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEz
-OTU3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC
-01MDQ5NzExODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1
-NDA1MzhdfQ==
+eyJoaXN0b3J5IjpbMjA0NjU3MzcxOCwtMTc5NDAyMzY4NSwxNj
+g1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0
+NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMT
+kyOTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5
+NTcxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLT
+UwNDk3MTE4OSwxNDA1MDY3MTQ1LDIwMzYyOTUxMTAsLTU0MDU0
+MDUzOF19
 -->
