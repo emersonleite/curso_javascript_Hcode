@@ -1481,7 +1481,7 @@ Chame o método pelo **nome** da **propriedade que** você especificou na funç�
 
 # Core Objects
 
-# Matrizes JavaScript
+# Matrizes (arrays) JavaScript
    
 **Arrays** armazenam vários valores em uma única variável .  
   
@@ -1500,16 +1500,23 @@ var courses = new Array ("HTML", "CSS", "JS");
 
 Essa sintaxe declara uma matriz chamada **courses** , que armazena três valores ou elementos.
 
+## Acessando uma Matriz (array)
 
+Você se refere a um elemento de matriz referindo-se ao **número** do **índice** escrito **entre colchetes**.  
+Essa instrução acessa o valor do primeiro elemento em **cursos** e altera o valor do segundo elemento.
+``
+var courses = new Array("HTML", "CSS", "JS");  
+var course = courses**[0]**; // HTML  
+courses**[1]** = "C++"; //Changes the second element
 
-
+[0] é o primeiro elemento em uma matriz . [1] é o segundo. Os índices de matriz começam com **0**.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLT
-E3NDIyNTYxNjgsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3
-OTQwMjM2ODUsMTY4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MT
-QxMTYsMTM4MzcxNDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1
-MjEzNjQ5NjYsLTE5MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MD
-czOTgsMTI1MTEzOTU3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYs
-LTY1MzQ3MDc4XX0=
+eyJoaXN0b3J5IjpbMjEzMTI5NjE0MywtMTYyNTkxNjQxNSwtMj
+A5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5
+NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOT
+Y4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0
+NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIxLDE2OTk4OD
+QyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcxLDE4MzEwNTQwMzMs
+LTYzMjE2NjgzNl19
 -->
