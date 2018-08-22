@@ -1541,13 +1541,15 @@ courses[2] = "JS";
 Uma matriz é um tipo especial de **objeto** .  Um array usa **números** para acessar seus elementos e um objeto usa **nomes** para acessar seus membros.
 
 Matrizes JavaScript são dinâmicas, portanto você pode declarar uma matriz e não passar nenhum argumento com o construtor Array () . Você pode então adicionar os elementos dinamicamente.
-```
-var courses = new Array**()**;  
+
+```javascript
+var courses = new Array();  
 courses[0] = "HTML";  
 courses[1] = "CSS";  
 courses[2] = "JS";  
 courses[3] = "C++";
 ```
+
 [Tente você mesmo](https://code.sololearn.com/695/#js)
 
 Você pode adicionar quantos elementos precisar.
@@ -1564,11 +1566,11 @@ Isso resulta na mesma matriz como aquela criada com a **nova** sintaxe **Array (
 Você pode acessar e modificar os elementos da matriz usando o número do índice, como fez antes.  
 A sintaxe **literal da** **matriz** é a maneira recomendada de declarar matrizes.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI3NjIxNzUsLTI2MDIwMTAwMCwtMT
-YyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2
-MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1ND
-U0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4
-LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOT
-M0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NTcx
-LDE4MzEwNTQwMzNdfQ==
+eyJoaXN0b3J5IjpbNjkzMzg0NTM2LC0yNjAyMDEwMDAsLTE2Mj
+U5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5NjM2
+NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4NTQ1ND
+IzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxNDQ3OCwz
+Nzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzND
+kyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwx
+ODMxMDU0MDMzXX0=
 -->
