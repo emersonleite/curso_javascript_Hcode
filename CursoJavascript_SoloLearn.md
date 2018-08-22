@@ -1344,11 +1344,12 @@ A palavra-chave **this** refere-se ao **objeto** **atual**. Note que
   
 Depois de ter um construtor de objeto  , você pode usar a palavra-chave **new** para criar novos objetos do mesmo tipo.
 ```javascript
-var p1 = **new** person("John", 42, "green");  
-var p2 = **new** person("Amy", 21, "red");  
-  
+var p1 = new person("John", 42, "green");  
+var p2 = new person("Amy", 21, "red");  
+ 
 document.write(p1.age); // Outputs 42  
 document.write(p2.name); // Outputs "Amy"
+```
 
 [Experimente você mesmo](https://code.sololearn.com/689/#js)
 
@@ -1377,11 +1378,11 @@ p1_ e _p2_ são agora objetos do tipo **pessoa** . Suas propriedades são atribu
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQxNTk4MjAsMTM4MzcxNDQ3OCwzNz
-g5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5MjkzNDky
-MSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOTU3MSwxOD
-MxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC01MDQ5NzEx
-ODksMTQwNTA2NzE0NSwyMDM2Mjk1MTEwLC01NDA1NDA1MzgsMT
-Q5NTcxNTU4OCwzNTkwMjM4MTQsLTE5MjE5NjM0NDIsNjYzNDQ2
-Nzg5XX0=
+eyJoaXN0b3J5IjpbNDc0OTA3NzM0LDEzODM3MTQ0NzgsMzc4OT
+g4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2LC0xOTI5MzQ5MjEs
+MTY5OTg4NDI3NSwxMDg1OTA3Mzk4LDEyNTExMzk1NzEsMTgzMT
+A1NDAzMywtNjMyMTY2ODM2LC02NTM0NzA3OCwtNTA0OTcxMTg5
+LDE0MDUwNjcxNDUsMjAzNjI5NTExMCwtNTQwNTQwNTM4LDE0OT
+U3MTU1ODgsMzU5MDIzODE0LC0xOTIxOTYzNDQyLDY2MzQ0Njc4
+OV19
 -->
