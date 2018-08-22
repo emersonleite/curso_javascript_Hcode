@@ -1479,15 +1479,16 @@ document.write(p.yearOfBirth());
 
 Chame o método pelo **nome** da **propriedade que** você especificou na função construtora, em vez do nome da função.
 
+https://code.sololearn.com/W0V32EfJNUBX
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLT
-E5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4
-NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxND
-Q3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5
-MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOT
-U3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC01
-MDQ5NzExODldfQ==
+eyJoaXN0b3J5IjpbMTgyNTMxMTA0NSwtMjA5MDQyMjY4NiwtMT
+c0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5
+NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxND
+ExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUy
+MTM2NDk2NiwtMTkyOTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNz
+M5OCwxMjUxMTM5NTcxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNiwt
+NjUzNDcwNzhdfQ==
 -->
