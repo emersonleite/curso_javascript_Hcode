@@ -1475,17 +1475,19 @@ var p = new person("A", 22);
 document.write(p.yearOfBirth());  
 // Outputs 1994
 ```
+[Experimente você mesmo](https://code.sololearn.com/693/#js)
 
+Chame o método pelo **nome** da **propriedade que** você especificou na função construtora, em vez do nome da função.
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDU1Mzk3MywtMTc0MjI1NjE2OCwtMT
-k2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1
-NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0ND
-c4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTky
-OTM0OTIxLDE2OTk4ODQyNzUsMTA4NTkwNzM5OCwxMjUxMTM5NT
-cxLDE4MzEwNTQwMzMsLTYzMjE2NjgzNiwtNjUzNDcwNzgsLTUw
-NDk3MTE4OV19
+eyJoaXN0b3J5IjpbLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLT
+E5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4
+NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxND
+Q3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYsLTE5
+MjkzNDkyMSwxNjk5ODg0Mjc1LDEwODU5MDczOTgsMTI1MTEzOT
+U3MSwxODMxMDU0MDMzLC02MzIxNjY4MzYsLTY1MzQ3MDc4LC01
+MDQ5NzExODldfQ==
 -->
