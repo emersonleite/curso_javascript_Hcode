@@ -1481,7 +1481,7 @@ Chame o método pelo **nome** da **propriedade que** você especificou na funç�
 
 # Objetos principais (Core Objects)
 
-# Matrizes (arrays) JavaScript
+## Matrizes (arrays) JavaScript
    
 **Arrays** armazenam vários valores em uma única variável .  
   
@@ -1566,13 +1566,13 @@ Isso resulta na mesma matriz como aquela criada com o **new Array ()** .
 Você pode acessar e modificar os elementos da matriz usando o número do índice, como fez antes.  
 A sintaxe **literal da** **matriz** é a maneira recomendada de declarar matrizes.
 
-- teste de gravação - apagar....
+## A propriedade length
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzU4NjAwMywtMTM0OTc2MzAxNiwxNz
-E4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAx
-MDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MT
-Y4LC0xOTYzNjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1
-LDE2ODU0NTQyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzOD
-M3MTQ0NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0xNTIxMzY0OTY2
-LC0xOTI5MzQ5MjFdfQ==
+eyJoaXN0b3J5IjpbMTk2Mjc0NTI4LC0xMzQ5NzYzMDE2LDE3MT
+g0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEw
+MDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNj
+gsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUs
+MTY4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4Mz
+cxNDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYs
+LTE5MjkzNDkyMV19
 -->
