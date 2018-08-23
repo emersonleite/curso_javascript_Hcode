@@ -1766,15 +1766,25 @@ Quando você abre qualquer página da Web em um navegador, o HTML da página é 
 Para isso, o navegador cria o **Document Object Model** dessa página, que é um modelo orientado a objetos de sua estrutura lógica.
 O DOM de um documento HTML pode ser representado como um conjunto aninhado de caixas:
 
-JavaScript pode ser usado para manipular o DOM de uma página dinamicamente para adicionar, excluir e modificar elementos.![](https://api.sololearn.com/DownloadFile?id=2773)
+![](https://api.sololearn.com/DownloadFile?id=2773)
+
+JavaScript pode ser usado para manipular o DOM de uma página dinamicamente para adicionar, excluir e modificar elementos.
+
+## Árvore DOM  
+  
+O DOM representa um documento como uma estrutura em árvore.
+Elementos HTML se tornam **nós** interrelacionados na árvore.  
+Todos esses nós na árvore têm algum tipo de relação entre eles.  
+Nós podem ter nós **filhos** . Os nós no mesmo nível de árvore são chamados de **irmãos**.  
+Por exemplo, considere a seguinte estrutura: Para o exemplo acima: <html> tem dois filhos (<head>, <body>); <head> tem um filho (<title>) e um pai (<html>); <title> tem um pai (<head>) e nenhum filho; <body> tem dois filhos (<h1> e <a>) e um pai (<html>);![](https://api.sololearn.com/DownloadFile?id=2773)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2ODk2Nzc3LC0yMDcyMTI4NjE1LC0xNT
-c5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5
-Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLT
-IwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2
-MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNi
-wtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0x
-NzQyMjU2MTY4XX0=
+eyJoaXN0b3J5IjpbMTk5NzA3OTIyMCwtMjA3MjEyODYxNSwtMT
+U3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5
+OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC
+0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3
+NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1Mz
+YsLTI2MDIwMTAwMCwtMTYyNTkxNjQxNSwtMjA5MDQyMjY4Niwt
+MTc0MjI1NjE2OF19
 -->
