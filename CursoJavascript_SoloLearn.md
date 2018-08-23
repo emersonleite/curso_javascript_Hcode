@@ -1605,17 +1605,21 @@ Embora muitas linguagens de programação suportem matrizes com índices nomeado
 No entanto, você ainda pode usar a sintaxe de matriz nomeada , que produzirá um objeto .  
 **Por exemplo:**
 
+```javascript
 var person = []; //empty array  
 person["name"] = "John";  
 person["age"] = 46;  
 document.write(person["age"]);  
 //Outputs "46"
+```
 
 [Experimente você mesmo](https://code.sololearn.com/700/#js)
 
-Agora, a pessoa é tratada como um objeto , em vez de ser uma matriz . Os índices nomeados "name" e "age" tornam-se propriedades do objeto person .
+Agora, a pessoa é tratada como um objeto , em vez de ser uma matriz . Os índices nomeados "name" e "age" tornam-se propriedades do objeto person.
+
+Como a matriz de pessoa é tratada como um objeto , os métodos e propriedades da matriz padrão produzirão resultados incorretos. Por exemplo, **person.length** retornará 0.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDI5MjEyNTYsLTY0NzQ2MDIxNiw1NT
+eyJoaXN0b3J5IjpbLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NT
 c4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUw
 MjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC
 0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYzNjY0MTMyLC0y
