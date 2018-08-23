@@ -1623,13 +1623,21 @@ Lembre-se de que o JavaScript **não** suporta matrizes com índices nomeados. E
 
 Se você usar um índice nomeado, o JavaScript redefinirá a matriz para um objeto padrão.
 
+## O objeto Math
 
+O objeto Math  permite que você execute tarefas matemáticas e inclua várias propriedades. **Por exemplo:**
+![](https://api.sololearn.com/DownloadFile?id=2767)
+
+```javascript
+document.write (Math.PI);  
+// Saídas 3.141592653589793
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1OTMxNDUsLTIwMzUxMjcxMzAsLTY0Nz
-Q2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3ODY0
-LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0xNj
-I1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYz
-NjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2ODU0NT
-QyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0Nzgs
-Mzc4OTg4Mjc2XX0=
+eyJoaXN0b3J5IjpbNDA2MzAyNjI0LC0yMDM1MTI3MTMwLC02ND
+c0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2
+NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMT
+YyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2
+MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1ND
+U0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4
+LDM3ODk4ODI3Nl19
 -->
