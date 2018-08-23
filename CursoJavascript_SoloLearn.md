@@ -1619,13 +1619,17 @@ Agora, a pessoa é tratada como um objeto , em vez de ser uma matriz . Os índic
 
 Como a matriz de pessoa é tratada como um objeto , os métodos e propriedades da matriz padrão produzirão resultados incorretos. Por exemplo, **person.length** retornará 0.
 
-Lembre-se de que o JavaScript **não** suporta matrizes com índices nomeados. Em JavaScript, os arrays sempre usam índices numerados. É melhor usar um **objeto** quando quiser que o índice seja uma **string** (texto). Use uma **matriz** quando você quiser que o índice seja um **número** .
+Lembre-se de que o JavaScript **não** suporta matrizes com índices nomeados. Em JavaScript, os arrays sempre usam índices numerados. É melhor usar um **objeto** quando quiser que o índice seja uma **string** (texto). Use uma **matriz** quando você quiser que o índice seja um **número**.
+
+Se você usar um índice nomeado, o JavaScript redefinirá a matriz para um objeto padrão.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI1MTM5OCwtMjAzNTEyNzEzMCwtNj
-Q3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4
-NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLT
-E2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5
-NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4NT
-Q1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxNDQ3
-OCwzNzg5ODgyNzZdfQ==
+eyJoaXN0b3J5IjpbMjA1OTMxNDUsLTIwMzUxMjcxMzAsLTY0Nz
+Q2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3ODY0
+LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0xNj
+I1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYz
+NjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2ODU0NT
+QyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0Nzgs
+Mzc4OTg4Mjc2XX0=
 -->
