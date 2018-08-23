@@ -1637,12 +1637,18 @@ document.write (Math.PI);
 
 O objeto math não tem construtor. Não há necessidade de criar um objeto Math primeiro.
 
+## Métodos de Math
+
+O objeto Math  contém vários métodos usados ​​para cálculos: por exemplo, o seguinte calcula a **raiz quadrada** de um número.
+
+![](https://api.sololearn.com/DownloadFile?id=2769)
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzY4OTY2MiwtMjAzNTEyNzEzMCwtNj
+eyJoaXN0b3J5IjpbLTQ3MDQ2MDM2NiwtMjAzNTEyNzEzMCwtNj
 Q3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4
 NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLT
 E2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5
