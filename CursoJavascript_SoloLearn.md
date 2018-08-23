@@ -1851,12 +1851,11 @@ O script resultará no seguinte HTML:
 <p>Hi there</p>
 ```
 
-We used the **length** property of the array to loop through all the selected elements in the above example.
-
+Usamos a propriedade **length** da matriz para percorra todos os elementos selecionados no exemplo acima.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5ODY5NDM1NCwxNDc1Mzc3NzU4LC0xMD
+eyJoaXN0b3J5IjpbMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMD
 YxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIz
 MzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1My
 wtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0
