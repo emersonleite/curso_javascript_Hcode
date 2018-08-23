@@ -1796,7 +1796,7 @@ Como body é um elemento do DOM , podemos acessá-lo usando o objeto **document*
 
 A propriedade **innerHTML** pode ser usada em quase todos os elementos HTML para alterar seu conteúdo.
 
-## Selecting Elements
+## Selecionando elementos
 
 Todos os elementos HTML são **objetos** . E como sabemos, todo objeto tem **propriedades** e **métodos**.  
 O objeto de **documento** possui métodos que permitem selecionar o elemento HTML desejado. Esses três métodos são os mais comumente usados ​​para selecionar elementos HTML:
@@ -1818,17 +1818,16 @@ No exemplo abaixo, o método **getElementById** é usado para selecionar o eleme
 var elem = document.**getElementById**("demo");  
 elem.innerHTML = "Hello World!";  
 ```
-
-O exemplo acima supõe que o HTML contém um elemento com id = "demo", por exemplo, <div id = "demo"> </ div>.
+O exemplo acima supõe que o HTML contém um elemento com id = "demo", por exemplo, \<div id = "demo"> \</ div>.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3ODgzMTc4NSwxNDc1Mzc3NzU4LC0xMD
-YxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIz
-MzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1My
-wtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0
-NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3OD
-Y0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0x
-NjI1OTE2NDE1XX0=
+eyJoaXN0b3J5IjpbLTEzOTEwMDM3OTAsMTQ3NTM3Nzc1OCwtMT
+A2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQwNzg2NywtNjky
+MzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NT
+MsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02
+NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNz
+g2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwt
+MTYyNTkxNjQxNV19
 -->
