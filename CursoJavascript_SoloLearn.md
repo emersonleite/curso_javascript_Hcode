@@ -1725,27 +1725,33 @@ Quando um objeto de Data  é criado, vários **métodos** tornam possível execu
 
 ![](https://api.sololearn.com/DownloadFile?id=2772)
 
+Por exemplo?
+```javascript
+var d = new Date();  
+var hours = d.**getHours();**  
+//hours is equal to the current hour
 ```
-```
+
 [Tente você mesmo](https://code.sololearn.com/705/#js)
 
   
 Vamos criar um programa que imprima a hora atual no navegador uma vez por segundo.
 
 ```
-``
+```
 [Tente você mesmo](https://code.sololearn.com/706/#js)
 
   
 **Declaramos** uma função **printTime ()** , que obtém a hora atual do objeto de data e a imprime na tela.  
 Em seguida, chamamos a função uma vez por segundo, usando o método **setInterval**
 
+A propriedade**innerHTML** define ou retorna o conteúdo HTML de um elemento.No nosso caso, estamos alterando o conteúdo HTML do corpo do nosso documento. Isso substitui o conteúdo a cada segundo, em vez de imprimi-lo repetidamente na tela.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODY0MzgzNzgsLTY5MjMzNDkxMywtMT
-E1MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1
-MDM5LDc5NTQyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LD
-U1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIx
-NTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLTE2MjU5MTY0MT
-UsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5NjM2NjQxMzIs
-LTIwOTY2NTkyMTddfQ==
+eyJoaXN0b3J5IjpbLTY0NDA4NDU3OSwtNjkyMzM0OTEzLC0xMT
+UzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUw
+MzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNT
+U3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1
+MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMTYyNTkxNjQxNS
+wtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2MzY2NDEzMiwt
+MjA5NjY1OTIxN119
 -->
