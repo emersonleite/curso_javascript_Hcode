@@ -1756,12 +1756,14 @@ setInterval(printTime, 1000);
 Em seguida, chamamos a função uma vez por segundo, usando o método **setInterval**
 
 A propriedade **innerHTML** define ou retorna o conteúdo HTML de um elemento.No nosso caso, estamos alterando o conteúdo HTML do corpo do nosso documento. Isso substitui o conteúdo a cada segundo, em vez de imprimi-lo repetidamente na tela.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMT
-E1MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1
-MDM5LDc5NTQyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LD
-U1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIx
-NTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLTE2MjU5MTY0MT
-UsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5NjM2NjQxMzIs
-LTIwOTY2NTkyMTddfQ==
+eyJoaXN0b3J5IjpbLTM5MDAxMTgwNywtMTU3OTQwNzg2NywtNj
+kyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0
+NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC
+02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQw
+Nzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMC
+wtMTYyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwt
+MTk2MzY2NDEzMl19
 -->
