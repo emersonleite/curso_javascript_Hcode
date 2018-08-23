@@ -1688,19 +1688,28 @@ Escreva o **nome** da função sem parênteses ao passar para o método **setInt
 
 ## O objeto de data (date)
 
-O objeto **Date** nos permite trabalhar com datas. Uma data consiste em um ano, um mês, um dia, uma hora, um minuto, um segundo e milissegundos. Usando o  **new Date()** , crie um novo objeto de data com a **data e a hora atuais** .
+O objeto **Date** nos permite trabalhar com datas. Uma data consiste em um ano, um mês, um dia, uma hora, um minuto, um segundo e milissegundos. Usando o  **new Date()** , crie um novo objeto de data com a **data e a hora atuais**.
 
+```javascript
+var d = new Date();  
+//d stores the current date and time
+```
+```javascript
+new Date(milliseconds)  
+new Date(dateString)  
+new Date(year, month, day, hours, minutes, seconds, milliseconds)
+```
 
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM1NDAyMTEyLC0xMTUzMzA4MDMsMTU0OT
-g5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1
-LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1NjksLTEzND
-k3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1
-MzYsLTI2MDIwMTAwMCwtMTYyNTkxNjQxNSwtMjA5MDQyMjY4Ni
-wtMTc0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5NjY1OTIxNywt
-MTc5NDAyMzY4NV19
+eyJoaXN0b3J5IjpbLTEwNjkwMDU5ODAsLTExNTMzMDgwMywxNT
+Q5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2
+NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMT
+M0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4
+NDUzNiwtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNj
+g2LC0xNzQyMjU2MTY4LC0xOTYzNjY0MTMyLC0yMDk2NjU5MjE3
+LC0xNzk0MDIzNjg1XX0=
 -->
