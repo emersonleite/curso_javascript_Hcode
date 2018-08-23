@@ -1823,13 +1823,16 @@ O exemplo acima supõe que o HTML contém um elemento com id = "demo", por exemp
 The **getElementsByClassName**() method finds all elements by class name and returns them as an array.  
 For example, if our HTML page contained three elements with class="demo", the following code would return all those elements as an array:
 
+```javascript
 var arr = document.**getElementsByClassName**("demo");  
 //accessing the second element  
 arr[1].innerHTML = "Hi";
+```
 
 Similarly, the **getElementsByTagName** method returns all of the elements of the specified tag name as an array.  
 The following example gets all paragraph elements of the page and changes their content:
 
+```javascript
 <p>hi</p>  
 <p>hello</p>  
 <p>hi</p>  
@@ -1839,13 +1842,22 @@ for (var x = 0; x < arr.length; x++) {
 arr[x].innerHTML = "Hi there";  
 }  
 </script>
+```
 
 The script will result in the following HTML:
+
+```javascript
+<p>Hi there</p>  
+<p>Hi there</p>  
+<p>Hi there</p>
+```
+
+We used the **length** property of the array to loop through all the selected elements in the above example.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MzY4OTkzMCwxNDc1Mzc3NzU4LC0xMD
+eyJoaXN0b3J5IjpbMTM4ODQxOTMyMiwxNDc1Mzc3NzU4LC0xMD
 YxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIz
 MzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1My
 wtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0
