@@ -1632,12 +1632,16 @@ O objeto Math  permite que você execute tarefas matemáticas e inclua várias p
 document.write (Math.PI);  
 // Saídas 3.141592653589793
 ```
+[Experimente você mesmo](https://code.sololearn.com/701/#js)
+
+O objeto math não tem construtor. Não há necessidade de criar um objeto Math primeiro.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA2MzAyNjI0LC0yMDM1MTI3MTMwLC02ND
-c0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2
-NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMT
-YyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2
-MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1ND
-U0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4
-LDM3ODk4ODI3Nl19
+eyJoaXN0b3J5IjpbLTE4MjkxNDEyNTYsLTIwMzUxMjcxMzAsLT
+Y0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3
+ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC
+0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0x
+OTYzNjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2OD
+U0NTQyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0
+NzgsMzc4OTg4Mjc2XX0=
 -->
