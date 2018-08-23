@@ -1661,18 +1661,21 @@ alert("The square root of " + n + " is " + answer);
 [Tente você mesmo](https://code.sololearn.com/703/#js)
 
 
-**Resultado:**  digite um número, como 64.
+**Resultado:** 
 
 ![](https://api.sololearn.com/DownloadFile?id=2770)
 
-  
+   Digite um número, como 64.
+
 ![](https://api.sololearn.com/DownloadFile?id=2771)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMD
-M1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMw
-MTYsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLT
-I2MDIwMTAwMCwtMTYyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0
-MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5ND
-AyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDEx
-NiwxMzgzNzE0NDc4XX0=
+eyJoaXN0b3J5IjpbLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NT
+QyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5
+LC0xMzQ5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNj
+kzMzg0NTM2LC0yNjAyMDEwMDAsLTE2MjU5MTY0MTUsLTIwOTA0
+MjI2ODYsLTE3NDIyNTYxNjgsLTE5NjM2NjQxMzIsLTIwOTY2NT
+kyMTcsLTE3OTQwMjM2ODUsMTY4NTQ1NDIzOSwxOTIwMDk2ODcz
+LDE0MTY1MTQxMTZdfQ==
 -->
