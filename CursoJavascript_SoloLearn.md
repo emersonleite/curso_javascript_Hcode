@@ -1650,12 +1650,17 @@ document.write(number);
 ```
 [Experimente você mesmo](https://code.sololearn.com/702/#js)
 
+Vamos criar um programa que peça ao usuário para inserir um número e mostrar sua raiz quadrada.
+``
+var n = prompt("Enter a number", "");  
+var answer = Math.sqrt(n);  
+alert("The square root of " + n + " is " + answer);
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02ND
-c0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2
-NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMT
-YyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2
-MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1ND
-U0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4
-LDM3ODk4ODI3Nl19
+eyJoaXN0b3J5IjpbMTc3OTU4MjM0Nyw3OTU0MjI2NjUsLTIwMz
+UxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAx
+NiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMj
+YwMjAxMDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQy
+MjU2MTY4LC0xOTYzNjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MD
+IzNjg1LDE2ODU0NTQyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2
+LDEzODM3MTQ0NzhdfQ==
 -->
