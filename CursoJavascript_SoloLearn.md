@@ -1721,13 +1721,16 @@ Objetos de data são estáticos, em vez de dinâmicos. A hora do computador est�
 
 ## Métodos de Data
   
-Quando um objeto de Date  é criado, vários **métodos** tornam possível executar operações nele. **Por exemplo:**
+Quando um objeto de Data  é criado, vários **métodos** tornam possível executar operações nele. **Por exemplo:**
+
+![](https://api.sololearn.com/DownloadFile?id=2772)
+
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNTE1MzYwMiwtNjkyMzM0OTEzLC0xMT
+eyJoaXN0b3J5IjpbLTQyMDU4NDMwMywtNjkyMzM0OTEzLC0xMT
 UzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUw
 MzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNT
 U3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1
