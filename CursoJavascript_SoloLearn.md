@@ -1703,15 +1703,29 @@ new Date(dateString)
 new Date(year, month, day, hours, minutes, seconds, milliseconds)
 ```
 
-```
 Datas JavaScript são calculadas em milissegundos a partir de 01 de janeiro de 1970 00:00:00 Hora Universal (UTC). Um dia contém 86.400.000 milissegundos.
 
+**Por exemplo:**
+```javascript
+//Fri Jan 02 1970 00:00:00  
+var d1 = new Date(86400000);  
+  
+//Fri Jan 02 2015 10:42:00  
+var d2 = new Date("January 2, 2015 10:42:00");  
+  
+//Sat Jun 11 1988 11:42:00  
+var d3 = new Date(88,5,11,11,42,0,0);
+```
+JavaScript conta meses de 0 a 11. Janeiro é 0 e dezembro é 11.  
+Objetos de data são estáticos, em vez de dinâmicos. A hora do computador está correndo, mas os objetos de data não mudam, uma vez criados.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTk3MzY4MTMsLTExNTMzMDgwMywxNT
-Q5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2
-NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMT
-M0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4
-NDUzNiwtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNj
-g2LC0xNzQyMjU2MTY4LC0xOTYzNjY0MTMyLC0yMDk2NjU5MjE3
-LC0xNzk0MDIzNjg1XX0=
+eyJoaXN0b3J5IjpbLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1ND
+k4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2
+NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMz
+Q5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0
+NTM2LC0yNjAyMDEwMDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2OD
+YsLTE3NDIyNTYxNjgsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcs
+LTE3OTQwMjM2ODVdfQ==
 -->
