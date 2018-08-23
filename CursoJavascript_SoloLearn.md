@@ -1719,13 +1719,19 @@ var d3 = new Date(88,5,11,11,42,0,0);
 JavaScript conta meses de 0 a 11. Janeiro é 0 e dezembro é 11.  
 Objetos de data são estáticos, em vez de dinâmicos. A hora do computador está correndo, mas os objetos de data não mudam, uma vez criados.
 
+## Métodos de Data
+  
+Quando um objeto de Date  é criado, vários **métodos** tornam possível executar operações nele. **Por exemplo:**
+
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1ND
-k4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2
-NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMz
-Q5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0
-NTM2LC0yNjAyMDEwMDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2OD
-YsLTE3NDIyNTYxNjgsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcs
-LTE3OTQwMjM2ODVdfQ==
+eyJoaXN0b3J5IjpbLTUyNTE1MzYwMiwtNjkyMzM0OTEzLC0xMT
+UzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUw
+MzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNT
+U3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1
+MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMTYyNTkxNjQxNS
+wtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2MzY2NDEzMiwt
+MjA5NjY1OTIxN119
 -->
