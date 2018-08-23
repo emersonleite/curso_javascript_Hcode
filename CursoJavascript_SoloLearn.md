@@ -1800,28 +1800,33 @@ A propriedade **innerHTML** pode ser usada em quase todos os elementos HTML para
 
 All HTML elements are  **objects**. And as we know every  object  has  **properties** and  **methods**.  The  **document** object  has methods that allow you to select the desired HTML element. These three methods are the most commonly used for selecting HTML elements:
 
+```javascript
 //finds element by id  
-document.**getElementById**(id)  
+document.getElementById(id)  
   
 //finds elements by class name  
-document.**getElementsByClassName**(name)  
+document.getElementsByClassName(name)  
   
 //finds elements by tag name  
-document.**getElementsByTagName**(name)  
+document.getElementsByTagName(name)  
+```
 
-
-In the example below, the  **getElementById** method  is used to select the element with **id="demo"**and change its content:var elem = document.**getElementById**("demo");  
+In the example below, the  **getElementById** method  is used to select the element with **id="demo"**and change its content:
+```javascript
+var elem = document.**getElementById**("demo");  
 elem.innerHTML = "Hello World!";  
+
+
 The example above assumes that the HTML contains an element with id="demo", for example <div id="demo"></div>.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNDk3ODMyLDE0NzUzNzc3NTgsLTEwNj
-ExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMz
-NDkxMywtMTE1MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0NDUzLC
-0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3
-NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4Nj
-QsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLTE2
-MjU5MTY0MTVdfQ==
+eyJoaXN0b3J5IjpbLTE3OTM1ODY0MjgsMTQ3NTM3Nzc1OCwtMT
+A2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQwNzg2NywtNjky
+MzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NT
+MsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02
+NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNz
+g2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwt
+MTYyNTkxNjQxNV19
 -->
