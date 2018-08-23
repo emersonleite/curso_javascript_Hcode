@@ -1671,18 +1671,26 @@ alert("The square root of " + n + " is " + answer);
 
 ## setInterval
 
+O método **setInterval ()**  chama uma função ou avalia uma expressão em intervalos especificados (em milissegundos). Ele continuará chamando a função até que **clearInterval ()** seja chamado ou a janela seja fechada. **Por exemplo:**
+
 ```javascript
 function myAlert() {  
 alert("Hi");  
 }  
 setInterval(myAlert, 3000);
 ```
+
+[Tente você mesmo](https://code.sololearn.com/704/#js)
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxMzQ3NTExLDE1NDk4OTkyODQsLTIwND
-I0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAzNTEyNzEz
-MCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MT
-g0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEw
-MDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNj
-gsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUs
-MTY4NTQ1NDIzOV19
+eyJoaXN0b3J5IjpbMTU3ODc5NzAxNSwxNTQ5ODk5Mjg0LC0yMD
+QyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcx
+MzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNz
+E4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAx
+MDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MT
+Y4LC0xOTYzNjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1
+LDE2ODU0NTQyMzldfQ==
 -->
