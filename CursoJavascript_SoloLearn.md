@@ -1694,6 +1694,9 @@ O objeto **Date** nos permite trabalhar com datas. Uma data consiste em um ano, 
 var d = new Date();  
 //d stores the current date and time
 ```
+
+As outras maneiras de inicializar datas permitem a criação de novos objetos de data a partir da **data e hora especificadas**.
+
 ```javascript
 new Date(milliseconds)  
 new Date(dateString)  
@@ -1713,7 +1716,7 @@ var d3 = new Date(88,5,11,11,42,0,0);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3NDM1NjU2OCwtMTE1MzMwODAzLDE1ND
+eyJoaXN0b3J5IjpbMTU3OTQ2NTQ2MSwtMTE1MzMwODAzLDE1ND
 k4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2
 NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMz
 Q5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0
