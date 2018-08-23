@@ -1773,14 +1773,20 @@ JavaScript pode ser usado para manipular o DOM de uma página dinamicamente para
 ## Árvore DOM  
   
 O DOM representa um documento como uma estrutura em árvore.
-Elementos HTML se tornam **nós** interrelacionados na árvore.  
-Todos esses nós na árvore têm algum tipo de relação entre eles.  
+Elementos HTML se tornam **nós** interrelacionados na árvore.
+Todos esses nós na árvore têm algum tipo de relação entre eles.
 Nós podem ter nós **filhos** . Os nós no mesmo nível de árvore são chamados de **irmãos**.  
-Por exemplo, considere a seguinte estrutura: Para o exemplo acima: <html> tem dois filhos (<head>, <body>); <head> tem um filho (<title>) e um pai (<html>); <title> tem um pai (<head>) e nenhum filho; <body> tem dois filhos (<h1> e <a>) e um pai (<html>);![](https://api.sololearn.com/DownloadFile?id=2773)
+Por exemplo, considere a seguinte estrutura:
+
+![](https://api.sololearn.com/DownloadFile?id=2773)
+
+Para o exemplo acima: \<html> tem dois filhos (\<head>, \<body>); \<head> tem um filho (\<title>) e um pai (\<html>); \<title> tem um pai (\<head>) e nenhum filho; \<body> tem dois filhos (\<h1> e \<a>) e um pai (\<html>);
+
+É importante entender os relacionamentos entre elementos em um documento HTML para poder manipulá-los com JavaScript.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzA3OTIyMCwtMjA3MjEyODYxNSwtMT
+eyJoaXN0b3J5IjpbLTI3MDM3NzkwNiwtMjA3MjEyODYxNSwtMT
 U3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5
 OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC
 0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3
