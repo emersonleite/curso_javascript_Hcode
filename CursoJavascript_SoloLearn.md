@@ -1626,6 +1626,7 @@ Se você usar um índice nomeado, o JavaScript redefinirá a matriz para um obje
 ## O objeto Math
 
 O objeto Math  permite que você execute tarefas matemáticas e inclua várias propriedades. **Por exemplo:**
+
 ![](https://api.sololearn.com/DownloadFile?id=2767)
 
 ```javascript
@@ -1636,12 +1637,14 @@ document.write (Math.PI);
 
 O objeto math não tem construtor. Não há necessidade de criar um objeto Math primeiro.
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjkxNDEyNTYsLTIwMzUxMjcxMzAsLT
-Y0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3
-ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC
-0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0x
-OTYzNjY0MTMyLC0yMDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2OD
-U0NTQyMzksMTkyMDA5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0
-NzgsMzc4OTg4Mjc2XX0=
+eyJoaXN0b3J5IjpbLTk4MzY5Mjk1NCwtMjAzNTEyNzEzMCwtNj
+Q3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4
+NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLT
+E2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5
+NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4NT
+Q1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxNDQ3
+OCwzNzg5ODgyNzZdfQ==
 -->
