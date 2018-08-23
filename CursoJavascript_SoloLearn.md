@@ -1669,9 +1669,9 @@ alert("The square root of " + n + " is " + answer);
 
 ![](https://api.sololearn.com/DownloadFile?id=2771)
 
-##
+## setInterval
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE3NjgwNSwtMjA0MjQ0NTMsLTE4Mj
+eyJoaXN0b3J5IjpbMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4Mj
 gxNjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAy
 MTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMT
 A2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMTYyNTkx
