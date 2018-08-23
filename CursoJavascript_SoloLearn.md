@@ -1582,8 +1582,12 @@ document.write(**courses.length**);
 
 A propriedade **length** é sempre mais um que o maior índice de array .  
 Se a matriz estiver vazia, a propriedade length retornará **0** .
+
+## Combinando Arrays
+  
+O método **concat ()**  do JavaScript permite que você una matrizes e crie uma matriz inteiramente nova . **Exemplo:**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyNjcyMjk2LC0xMzQ5NzYzMDE2LDE3MT
+eyJoaXN0b3J5IjpbNzM4NTk5MzkzLC0xMzQ5NzYzMDE2LDE3MT
 g0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEw
 MDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNj
 gsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUs
