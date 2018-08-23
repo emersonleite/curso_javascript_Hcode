@@ -1651,12 +1651,22 @@ document.write(number);
 [Experimente você mesmo](https://code.sololearn.com/702/#js)
 
 Vamos criar um programa que peça ao usuário para inserir um número e mostrar sua raiz quadrada.
-``
+
+```javascript
 var n = prompt("Enter a number", "");  
 var answer = Math.sqrt(n);  
 alert("The square root of " + n + " is " + answer);
+```
+
+[Tente você mesmo](https://code.sololearn.com/703/#js)
+**Resultado:**  digite um número, como 64.
+
+![](https://api.sololearn.com/DownloadFile?id=2770)
+
+  
+![](https://api.sololearn.com/DownloadFile?id=2771)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3OTU4MjM0Nyw3OTU0MjI2NjUsLTIwMz
+eyJoaXN0b3J5IjpbMTc3MzQ4Njk2NSw3OTU0MjI2NjUsLTIwMz
 UxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAx
 NiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMj
 YwMjAxMDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0xNzQy
