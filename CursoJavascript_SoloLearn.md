@@ -1785,12 +1785,14 @@ Para o exemplo acima: \<html> tem dois filhos (\<head>, \<body>); \<head> tem um
 É importante entender os relacionamentos entre elementos em um documento HTML para poder manipulá-los com JavaScript.
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3MDM3NzkwNiwtMjA3MjEyODYxNSwtMT
-U3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5
-OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC
-0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3
-NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1Mz
-YsLTI2MDIwMTAwMCwtMTYyNTkxNjQxNSwtMjA5MDQyMjY4Niwt
-MTc0MjI1NjE2OF19
+eyJoaXN0b3J5IjpbLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLT
+E1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4
+OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NS
+wtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5
+NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NT
+M2LC0yNjAyMDEwMDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYs
+LTE3NDIyNTYxNjhdfQ==
 -->
