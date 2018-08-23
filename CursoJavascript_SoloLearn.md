@@ -1820,17 +1820,16 @@ elem.innerHTML = "Hello World!";
 ```
 O exemplo acima supõe que o HTML contém um elemento com id = "demo", por exemplo, \<div id = "demo"> \</div>.
 
-The **getElementsByClassName**() method finds all elements by class name and returns them as an array.  
-For example, if our HTML page contained three elements with class="demo", the following code would return all those elements as an array:
+O método **getElementsByClassName**() localiza todos os elementos por nome de classe e os retorna como uma matriz . Por exemplo, se nossa página HTML contivesse três elementos com class = "demo", o código a seguir retornaria todos esses elementos como uma matriz :
 
 ```javascript
-var arr = document.**getElementsByClassName**("demo");  
+var arr = document.getElementsByClassName("demo");  
 //accessing the second element  
 arr[1].innerHTML = "Hi";
 ```
 
-Similarly, the **getElementsByTagName** method returns all of the elements of the specified tag name as an array.  
-The following example gets all paragraph elements of the page and changes their content:
+Da mesma forma, o método **getElementsByTagName** retorna todos os elementos do nome da marca especificada como uma matriz .
+O exemplo a seguir obtém todos os elementos de parágrafo da página e altera seu conteúdo:
 
 ```javascript
 <p>hi</p>  
@@ -1844,7 +1843,7 @@ arr[x].innerHTML = "Hi there";
 </script>
 ```
 
-The script will result in the following HTML:
+O script resultará no seguinte HTML:
 
 ```javascript
 <p>Hi there</p>  
@@ -1857,7 +1856,7 @@ We used the **length** property of the array to loop through all the selected el
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4ODQxOTMyMiwxNDc1Mzc3NzU4LC0xMD
+eyJoaXN0b3J5IjpbMTE5ODY5NDM1NCwxNDc1Mzc3NzU4LC0xMD
 YxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIz
 MzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1My
 wtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0
