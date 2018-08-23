@@ -1586,12 +1586,15 @@ Se a matriz estiver vazia, a propriedade length retornará **0** .
 ## Combinando Arrays
   
 O método **concat ()**  do JavaScript permite que você una matrizes e crie uma matriz inteiramente nova . **Exemplo:**
+
+
+[Tente você mesmo](https://code.sololearn.com/699/#js)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM4NTk5MzkzLC0xMzQ5NzYzMDE2LDE3MT
-g0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEw
-MDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNj
-gsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUs
-MTY4NTQ1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4Mz
-cxNDQ3OCwzNzg5ODgyNzYsNDQyODI0MDEsLTE1MjEzNjQ5NjYs
-LTE5MjkzNDkyMV19
+eyJoaXN0b3J5IjpbNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxOD
+QwNzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAw
+MCwtMTYyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OC
+wtMTk2MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwx
+Njg1NDU0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNz
+E0NDc4LDM3ODk4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2Niwt
+MTkyOTM0OTIxXX0=
 -->
