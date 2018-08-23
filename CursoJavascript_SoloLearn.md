@@ -1788,15 +1788,22 @@ Para o exemplo acima: \<html> tem dois filhos (\<head>, \<body>); \<head> tem um
   
 Existe um objeto de **documento** predefinido em JavaScript, que pode ser usado para acessar todos os elementos no DOM . Em outras palavras, o objeto do **documento** é o proprietário (ou **raiz**) de todos os objetos na sua página da web. Portanto, se você quiser acessar objetos em uma página HTML, sempre começará a acessar o objeto de documento . **Por exemplo:**
 
-```` 
+```javascript
+document.body.innerHTML= "Some text";
+```
+
+Como body é um elemento do DOM , podemos acessá-lo usando o objeto **document** e alterar o conteúdo da propriedade **innerHTML**.
+
+A propriedade **innerHTML** pode ser usada em quase todos os elementos HTML para alterar seu conteúdo.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1Mzk2OTQ3LC0xMDYxMTA2MTM0LC0yMD
-cyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMz
-MDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOS
-w3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4
-NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMj
-Y4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC0y
-MDkwNDIyNjg2XX0=
+eyJoaXN0b3J5IjpbMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMj
+A3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUz
+MzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMz
+ksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3
+ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1MD
+I2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMTYyNTkxNjQxNSwt
+MjA5MDQyMjY4Nl19
 -->
