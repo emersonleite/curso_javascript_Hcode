@@ -1758,12 +1758,15 @@ Em seguida, chamamos a função uma vez por segundo, usando o método **setInter
 A propriedade **innerHTML** define ou retorna o conteúdo HTML de um elemento.No nosso caso, estamos alterando o conteúdo HTML do corpo do nosso documento. Isso substitui o conteúdo a cada segundo, em vez de imprimi-lo repetidamente na tela.
 
 
+# DOM e Eventos
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MDAxMTgwNywtMTU3OTQwNzg2NywtNj
-kyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0
-NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC
-02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQw
-Nzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMC
-wtMTYyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwt
-MTk2MzY2NDEzMl19
+eyJoaXN0b3J5IjpbLTIwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLT
+Y5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0
+NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAzNTEyNzEzMC
+wtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0
+MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMD
+AsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgs
+LTE5NjM2NjQxMzJdfQ==
 -->
