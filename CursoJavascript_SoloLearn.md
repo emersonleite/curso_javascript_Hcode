@@ -1682,11 +1682,17 @@ setInterval(myAlert, 3000);
 
 [Tente você mesmo](https://code.sololearn.com/704/#js)
 
+Isso chamará a função myAlert a cada 3 segundos (1000 ms = 1 segundo).
+
+Escreva o **nome** da função sem parênteses ao passar para o método **setInterval**.
+
+
+
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3ODc5NzAxNSwxNTQ5ODk5Mjg0LC0yMD
+eyJoaXN0b3J5IjpbLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMD
 QyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcx
 MzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNz
 E4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAx
