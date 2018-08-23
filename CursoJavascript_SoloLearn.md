@@ -1784,15 +1784,19 @@ Para o exemplo acima: \<html> tem dois filhos (\<head>, \<body>); \<head> tem um
 
 É importante entender os relacionamentos entre elementos em um documento HTML para poder manipulá-los com JavaScript.
 
+## O objeto do documento  
+  
+Existe um objeto de **documento** predefinido em JavaScript, que pode ser usado para acessar todos os elementos no DOM . Em outras palavras, o objeto do **documento** é o proprietário (ou **raiz**) de todos os objetos na sua página da web. Portanto, se você quiser acessar objetos em uma página HTML, sempre começará a acessar o objeto de documento . **Por exemplo:**
 
+```` 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLT
-E1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4
-OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NS
-wtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5
-NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NT
-M2LC0yNjAyMDEwMDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYs
-LTE3NDIyNTYxNjhdfQ==
+eyJoaXN0b3J5IjpbMzI1Mzk2OTQ3LC0xMDYxMTA2MTM0LC0yMD
+cyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMz
+MDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOS
+w3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4
+NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMj
+Y4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC0y
+MDkwNDIyNjg2XX0=
 -->
