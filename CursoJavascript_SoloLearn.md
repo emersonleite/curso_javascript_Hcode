@@ -1639,8 +1639,10 @@ O objeto math não tem construtor. Não há necessidade de criar um objeto Math 
 
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MzY5Mjk1NCwtMjAzNTEyNzEzMCwtNj
+eyJoaXN0b3J5IjpbLTQwMzY4OTY2MiwtMjAzNTEyNzEzMCwtNj
 Q3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4
 NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLT
 E2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5
