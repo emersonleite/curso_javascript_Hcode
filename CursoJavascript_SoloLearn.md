@@ -1586,18 +1586,20 @@ Se a matriz estiver vazia, a propriedade length retornará **0** .
 ## Combinando Arrays
   
 O método **concat ()**  do JavaScript permite que você una matrizes e crie uma matriz inteiramente nova . **Exemplo:**
-``
+
+```javascript
 var c1 = ["HTML", "CSS"];  
 var c2 = ["JS", "C++"];  
-var  **courses** = **c1.concat(c2)**;
+var  courses = c1.concat(c2);
 
+```
 [Tente você mesmo](https://code.sololearn.com/699/#js)
 
 A matriz de **cursos** que resulta contém 4 elementos (HTML, CSS, JS, C ++).
 
 A operação de**concat**não afeta os arrays c1 e c2, ela retorna a concatenação resultante como um novo array.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE3NjQ1MzU5LDU1Nzg1NTY5LC0xMzQ5Nz
+eyJoaXN0b3J5IjpbNDU1Mjc2NDYwLDU1Nzg1NTY5LC0xMzQ5Nz
 YzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2
 LC0yNjAyMDEwMDAsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLT
 E3NDIyNTYxNjgsLTE5NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3
