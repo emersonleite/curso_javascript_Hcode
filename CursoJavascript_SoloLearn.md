@@ -1566,13 +1566,13 @@ Isso resulta na mesma matriz como aquela criada com o **new Array ()** .
 Você pode acessar e modificar os elementos da matriz usando o número do índice, como fez antes.  
 A sintaxe **literal da** **matriz** é a maneira recomendada de declarar matrizes.
 
-- teste de gravação - apagar
+- teste de gravação - apagar....
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2OT
-MzODQ1MzYsLTI2MDIwMTAwMCwtMTYyNTkxNjQxNSwtMjA5MDQy
-MjY4NiwtMTc0MjI1NjE2OCwtMTk2MzY2NDEzMiwtMjA5NjY1OT
-IxNywtMTc5NDAyMzY4NSwxNjg1NDU0MjM5LDE5MjAwOTY4NzMs
-MTQxNjUxNDExNiwxMzgzNzE0NDc4LDM3ODk4ODI3Niw0NDI4Mj
-QwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIxLDE2OTk4ODQyNzUs
-MTA4NTkwNzM5OF19
+eyJoaXN0b3J5IjpbLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMT
+A2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMTYyNTkx
+NjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2MzY2ND
+EzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1NDU0MjM5
+LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4LDM3OD
+k4ODI3Niw0NDI4MjQwMSwtMTUyMTM2NDk2NiwtMTkyOTM0OTIx
+LDE2OTk4ODQyNzVdfQ==
 -->
