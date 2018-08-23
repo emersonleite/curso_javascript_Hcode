@@ -1643,16 +1643,19 @@ O objeto Math  contém vários métodos usados ​​para cálculos: por exemplo
 
 ![](https://api.sololearn.com/DownloadFile?id=2769)
 
-
-
-
+```javascript
+var number = Math.sqrt(4);  
+document.write(number);  
+// Saídas 2
+```
+[Experimente você mesmo](https://code.sololearn.com/702/#js)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDQ2MDM2NiwtMjAzNTEyNzEzMCwtNj
-Q3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4
-NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMDAsLT
-E2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgsLTE5
-NjM2NjQxMzIsLTIwOTY2NTkyMTcsLTE3OTQwMjM2ODUsMTY4NT
-Q1NDIzOSwxOTIwMDk2ODczLDE0MTY1MTQxMTYsMTM4MzcxNDQ3
-OCwzNzg5ODgyNzZdfQ==
+eyJoaXN0b3J5IjpbNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02ND
+c0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2
+NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2MDIwMTAwMCwtMT
+YyNTkxNjQxNSwtMjA5MDQyMjY4NiwtMTc0MjI1NjE2OCwtMTk2
+MzY2NDEzMiwtMjA5NjY1OTIxNywtMTc5NDAyMzY4NSwxNjg1ND
+U0MjM5LDE5MjAwOTY4NzMsMTQxNjUxNDExNiwxMzgzNzE0NDc4
+LDM3ODk4ODI3Nl19
 -->
