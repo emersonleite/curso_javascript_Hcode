@@ -1760,13 +1760,21 @@ A propriedade **innerHTML** define ou retorna o conteúdo HTML de um elemento.No
 
 # DOM e Eventos
 
+## O DOM
+
+Quando você abre qualquer página da Web em um navegador, o HTML da página é carregado e processado visualmente na tela.
+Para isso, o navegador cria o **Document Object Model** dessa página, que é um modelo orientado a objetos de sua estrutura lógica.
+O DOM de um documento HTML pode ser representado como um conjunto aninhado de caixas:
+
+JavaScript pode ser usado para manipular o DOM de uma página dinamicamente para adicionar, excluir e modificar elementos.![](https://api.sololearn.com/DownloadFile?id=2773)
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLT
-Y5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0
-NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAzNTEyNzEzMC
-wtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMDE2LDE3MTg0
-MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0yNjAyMDEwMD
-AsLTE2MjU5MTY0MTUsLTIwOTA0MjI2ODYsLTE3NDIyNTYxNjgs
-LTE5NjM2NjQxMzJdfQ==
+eyJoaXN0b3J5IjpbODg2ODk2Nzc3LC0yMDcyMTI4NjE1LC0xNT
+c5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5
+Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLT
+IwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2
+MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNi
+wtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC0x
+NzQyMjU2MTY4XX0=
 -->
