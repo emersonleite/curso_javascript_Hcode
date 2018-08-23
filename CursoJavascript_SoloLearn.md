@@ -1599,13 +1599,27 @@ A matriz de **cursos** que resulta contém 4 elementos (HTML, CSS, JS, C ++).
 
 A operação de**concat**não afeta os arrays c1 e c2, ela retorna a concatenação resultante como um novo array.
 
+## Matrizes Associativas
+  
+Embora muitas linguagens de programação suportem matrizes com índices nomeados (texto em vez de números), chamados de **matrizes associativas** , o JavaScript **não** .  
+No entanto, você ainda pode usar a sintaxe de matriz nomeada , que produzirá um objeto .  
+**Por exemplo:**
 
+var person = []; //empty array  
+person["name"] = "John";  
+person["age"] = 46;  
+document.write(person["age"]);  
+//Outputs "46"
+
+[Experimente você mesmo](https://code.sololearn.com/700/#js)
+
+Agora, a pessoa é tratada como um objeto , em vez de ser uma matriz . Os índices nomeados "name" e "age" tornam-se propriedades do objeto person .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OT
-c2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUz
-NiwtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC0yMDkwNDIyNjg2LC
-0xNzQyMjU2MTY4LC0xOTYzNjY0MTMyLC0yMDk2NjU5MjE3LC0x
-Nzk0MDIzNjg1LDE2ODU0NTQyMzksMTkyMDA5Njg3MywxNDE2NT
-E0MTE2LDEzODM3MTQ0NzgsMzc4OTg4Mjc2LDQ0MjgyNDAxLC0x
-NTIxMzY0OTY2XX0=
+eyJoaXN0b3J5IjpbLTE2NDI5MjEyNTYsLTY0NzQ2MDIxNiw1NT
+c4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUw
+MjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0xNjI1OTE2NDE1LC
+0yMDkwNDIyNjg2LC0xNzQyMjU2MTY4LC0xOTYzNjY0MTMyLC0y
+MDk2NjU5MjE3LC0xNzk0MDIzNjg1LDE2ODU0NTQyMzksMTkyMD
+A5Njg3MywxNDE2NTE0MTE2LDEzODM3MTQ0NzgsMzc4OTg4Mjc2
+LDQ0MjgyNDAxXX0=
 -->
