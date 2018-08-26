@@ -2048,13 +2048,40 @@ parent.replaceChild(p, child);
 > O código acima cria um novo elemento de parágrafo que substitui o
 > parágrafo p1 existente.
 
+# Animações  
+  
+Agora que sabemos como selecionar e alterar elementos DOM , podemos criar uma animação simples.  Vamos criar uma página HTML simples com um elemento de **caixa (box)** que será animado usando JS.
+
+<style>  
+#container {  
+width: 200px;  
+height: 200px;  
+background: green;  
+**position: relative;**  
+}  
+#box {  
+width: 50px;  
+height: 50px;  
+background: red;  
+**position: absolute;**  
+}  
+</style>  
+<div id="container">  
+<div id="box"> </div>  
+</div>[Try It Yourself](https://code.sololearn.com/961/#js)
+
+  
+Our **box** element is inside a **container** element. Note the position attribute used for the elements: the container is **relative** and the box is **absolute**. This will allow us to create the animation relative to the container.![](https://api.sololearn.com/DownloadFile?id=3032)  
+We will be animating the red box to make it move to the right side of the container.  
+You need to be familiar with CSS to better understand the code provided.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQ4NjA2MTIsMTk5MjU4NTgyOSwtND
-gxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4
-NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0Nj
-MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
-NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMy
-wxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0
-MjI2NjVdfQ==
+eyJoaXN0b3J5IjpbMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MT
+A1ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQs
+NzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMD
+YzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYx
+NSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMT
+U0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIy
+NjY1XX0=
 -->
