@@ -2017,15 +2017,40 @@ parent.removeChild(child);
 > propriedade **parentNode** para obter o pai do elemento que queremos
 > remover:   var child = document. getElementById ("p1");  
 > child.**parentNode**.removeChild(child);
+> 
 
+# Replacing Elements
+
+  
+  
+To replace an HTML element, the element.**replaceChild**(newNode, oldNode)  method  is used.  
+**For example:**
+
+<div id="demo">  
+<p id="p1">This is a paragraph.</p>  
+<p id="p2">This is another paragraph.</p>  
+</div>  
+  
+<script>  
+var p = document.createElement("p");  
+var node = document.createTextNode("This is new");  
+p.appendChild(node);  
+  
+var parent = document.getElementById("demo");  
+var child = document.getElementById("p1");  
+parent.**replaceChild**(p, child);  
+</script>[Try It Yourself](https://code.sololearn.com/960/#js)
+
+  
+The code above creates a new paragraph element that replaces the existing p1 paragraph.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjMyNjM5NDUsMTk5MjU4NTgyOSwtND
-gxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4
-NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0Nj
-MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
-NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMy
-wxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0
-MjI2NjVdfQ==
+eyJoaXN0b3J5IjpbLTgxNDk0NDk4MywxOTkyNTg1ODI5LC00OD
+EwNTg1MSwyMDc3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0
+LDc1NzQwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2Mz
+A2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2
+MTUsLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLD
+E1NDk4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQy
+MjY2NV19
 -->
