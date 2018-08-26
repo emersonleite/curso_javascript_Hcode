@@ -1995,6 +1995,7 @@ div.appendChild(p);
 Para remover um elemento HTML, você deve selecionar o pai do elemento e usar o **removeChild**(node) método .  
 
 **Por exemplo:**
+
 ```javascript
 <div id="demo">  
 <p id="p1">This is a paragraph.</p>  
@@ -2010,8 +2011,7 @@ parent.removeChild(child);
 
 [Experimente você mesmo](https://code.sololearn.com/959/#js)
 
-  
-Isso remove o parágrafo com id = "p1" da página.
+  Isso remove o parágrafo com id = "p1" da página.
 
 > Uma maneira alternativa de obter o mesmo resultado seria o uso da
 > propriedade **parentNode** para obter o pai do elemento que queremos
@@ -2019,12 +2019,13 @@ Isso remove o parágrafo com id = "p1" da página.
 > child.**parentNode**.removeChild(child);
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nz
-k4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcs
-NTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mz
-c3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3
-ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC
-0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUx
-MjcxMzBdfQ==
+eyJoaXN0b3J5IjpbLTIxMjMyNjM5NDUsMTk5MjU4NTgyOSwtND
+gxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4
+NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0Nj
+MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
+NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMy
+wxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0
+MjI2NjVdfQ==
 -->
