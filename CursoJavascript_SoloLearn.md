@@ -2141,18 +2141,17 @@ box.style.left = pos+"px";
 }  
 }
 ```
-
 [Tente você mesmo](https://code.sololearn.com/953/#js)
   
 Parabéns, você acabou de criar sua primeira animação em JavaScript!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLDM4Nj
-Y2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMs
-MTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MT
-I5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgs
-LTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLT
-Y5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0
-NDUzXX0=
+eyJoaXN0b3J5IjpbLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMz
+IwNDA5NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1
+MSwyMDc3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1Nz
+QwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2Mzcx
+LDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLT
+E1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4
+OTkyODRdfQ==
 -->
