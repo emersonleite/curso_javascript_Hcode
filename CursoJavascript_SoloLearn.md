@@ -2051,7 +2051,7 @@ parent.replaceChild(p, child);
 # Animações  
   
 Agora que sabemos como selecionar e alterar elementos DOM , podemos criar uma animação simples.  Vamos criar uma página HTML simples com um elemento de **caixa (box)** que será animado usando JS.
-
+```css
 <style>  
 #container {  
 width: 200px;  
@@ -2068,20 +2068,24 @@ background: red;
 </style>  
 <div id="container">  
 <div id="box"> </div>  
-</div>[Try It Yourself](https://code.sololearn.com/961/#js)
+</div>
+```
+[Experimente você mesmo](https://code.sololearn.com/961/#js)
+
+Nosso elemento de **caixa** está dentro de um elemento de **contêiner** . Observe o atributo de posição usado para os elementos: o contêiner é **relativo** e a caixa é **absoluta** . Isso nos permitirá criar a animação relativa ao contêiner. Estaremos animando a caixa vermelha para que ela se mova para o lado direito do contêiner.
+
+![](https://api.sololearn.com/DownloadFile?id=3032)
 
   
-Our **box** element is inside a **container** element. Note the position attribute used for the elements: the container is **relative** and the box is **absolute**. This will allow us to create the animation relative to the container.![](https://api.sololearn.com/DownloadFile?id=3032)  
-We will be animating the red box to make it move to the right side of the container.  
 You need to be familiar with CSS to better understand the code provided.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MT
-A1ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQs
-NzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMD
-YzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYx
-NSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMT
-U0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIy
-NjY1XX0=
+eyJoaXN0b3J5IjpbLTE0NjU0NjU1MSwzODY2NjI3OTMsMTk5Mj
+U4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYs
+MTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mj
+k1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0
+LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLT
+ExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2
+NTAzOV19
 -->
