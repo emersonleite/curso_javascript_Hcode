@@ -1852,9 +1852,43 @@ O script resultará no seguinte HTML:
 
 Usamos a propriedade **length** da matriz para percorra todos os elementos selecionados no exemplo acima.
 
+# Trabalhando com DOM
+  
+  
+Cada elemento no DOM tem um conjunto de propriedades e métodos que fornecem informações sobre seus relacionamentos no elemento DOM :
+element.**childNodes** returns an array of an element's child nodes.  
+element.**firstChild** returns the first child node of an element.  
+element.**lastChild** returns the last child node of an element.  
+element.**hasChildNodes** returns true if an element has any child nodes, otherwise false.  
+element.**nextSibling** returns the next node at the same tree level.  
+element.**previousSibling** returns the previous node at the same tree level.  
+element.**parentNode** returns the parent node of an element.  
+We can, for example, select all child nodes of an element and change their content:
+
+<html>  
+<body>  
+<div id ="demo">  
+<p>some text</p>  
+<p>some other text</p>  
+</div>  
+  
+<script>  
+var a = document.getElementById("demo");  
+var arr = a.childNodes;  
+for(var x=0;x<arr.length;x++) {  
+arr[x].innerHTML = "new text";  
+}  
+</script>  
+  
+</body>  
+</html>[Try It Yourself](https://code.sololearn.com/951/#js)
+
+  
+The code above changes the text of both paragraphs to "new text".
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTc5NDUzMjQsMTk0NjMwNjM3MSwxND
+eyJoaXN0b3J5IjpbLTE1ODg1ODgwNTEsMTk0NjMwNjM3MSwxND
 c1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5
 NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mj
 g0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIw
