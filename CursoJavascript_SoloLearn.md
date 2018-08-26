@@ -1956,9 +1956,10 @@ document.**createElement** (element) cria um novo nó de elemento.
 document.**createTextNode** (text) cria um novo nó de texto. 
   
 **Por exemplo:**
-```Javascrip
-var node = document.createTextNode**("Some new text");  
 
+```javascript
+var node = document.createTextNode("Some new text");  
+```
 
 Isso criará um novo nó de texto, mas ele não aparecerá no documento até você anexá-lo a um elemento existente com um dos seguintes métodos:  
 element. **appendChild (newNode)** adiciona um novo nó filho a um elemento como o último nó filho.  
@@ -1989,7 +1990,7 @@ div.**appendChild**(p);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNjg3NzQxLDEyMDMwMzY4NDYsMTc5Mz
+eyJoaXN0b3J5IjpbNzI0NzM1Mjk3LDEyMDMwMzY4NDYsMTc5Mz
 g4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAs
 MTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMD
 cyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMz
