@@ -1894,29 +1894,36 @@ arr[x].innerHTML = "new text";
 
 # Alterando Atributos
 
-    
-Once you have selected the element(s) you want to work with, you can change their attributes.  
-As we have seen in the previous lessons, we can change the text content of an element using the **innerHTML** property.  
-Similarly, we can change the attributes of elements.  
-For example, we can change the **src** attribute of an image:<img id="myimg" src="orange.png" alt="" />  
+Depois de selecionar o (s) elemento (s) com o qual deseja trabalhar, você poderá alterar seus atributos.  
+Como vimos nas lições anteriores, podemos alterar o conteúdo de texto de um elemento usando a propriedade **innerHTML** .  
+Da mesma forma, podemos mudar os atributos dos elementos.  
+Por exemplo, podemos alterar o atributo **src** de uma imagem:
+
+```javascript
+<img id="myimg" src="orange.png" alt="" />  
 <script>  
 var el = document.getElementById("myimg");  
 el.**src** = "apple.png";  
 </script>  
-We can change the **href** attribute of a link:
+```
 
+Podemos alterar o atributo **href** de um link:
+
+```javascript
 <a href="http://www.example.com">Some link</a>  
 <script>  
 var el = document.getElementsByTagName("a");  
-el[0].**href** = "http://www.sololearn.com";  
-</script>[Try It Yourself](https://code.sololearn.com/956/#js)
+el[0].href = "http://www.sololearn.com";  
+</script>
+```
 
-  
-Practically all attributes of an element can be changed using JavaScript.
+[Experimente você mesmo](https://code.sololearn.com/956/#js)
+
+Praticamente todos os atributos de um elemento podem ser alterados usando JavaScript.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODg5MzI0NywxNTczNjI5NTEwLDE5ND
+eyJoaXN0b3J5IjpbMTEyNzc5ODU5MCwxNTczNjI5NTEwLDE5ND
 YzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEy
 ODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MD
 MsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1
