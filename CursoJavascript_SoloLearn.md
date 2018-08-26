@@ -79,8 +79,8 @@ Normalmente, a tag de script é colocada na \<head> do documento HTML:
 ```javascript
 <html>  
 <head>  
-**<script>  
-</ script>**  
+<script>  
+</ script>  
 </ head>  
 <body>  
 </ body>  
@@ -94,7 +94,7 @@ Como alternativa, inclua o JavaScript na tag \<body>.
 ```javascript
 <html>  
 <head> </ head>  
-<body> **<script>** **</ script>** </ body> 
+<body> <script> </ script> </ body> 
 </ html>
 ```
 
@@ -107,7 +107,7 @@ Isso pode melhorar o carregamento da página, porque a exibição de HTML não �
 A tag \<script> pode ter dois atributos, **idioma** e **tipo** , que especificam o tipo do script:
 
 ```javascript
-<script **language** = "javascript" **type** = "text / javascript">  
+<script language = "javascript" type = "text / javascript">  
   
 </ script>
 ```
@@ -119,9 +119,9 @@ No exemplo abaixo, criamos uma caixa de alerta dentro da tag de script, usando a
 <html>  
 <head>  
 <title> </ title>  
-**<script type = "texto / javascript">  
+<script type = "texto / javascript">  
 alert ("Esta é uma caixa de alerta!");  
-</ script>**  
+</ script>  
 </ head>  
 <body>  
 </ body>  
@@ -156,7 +156,7 @@ Aqui está um exemplo:
 <html>  
 <head>  
 <title> </ title>  
-<script **src = "demo.js"** > </ script>  
+<script src = "demo.js" > </ script>  
 </ head>  
 <body>  
 </ body>  
@@ -1855,7 +1855,7 @@ Usamos a propriedade **length** da matriz para percorra todos os elementos selec
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTU4MjY1OSwxOTQ2MzA2MzcxLDE0Nz
+eyJoaXN0b3J5IjpbMTk0NDYyMTMxNSwxOTQ2MzA2MzcxLDE0Nz
 UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
 MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
 QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
