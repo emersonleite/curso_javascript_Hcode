@@ -1975,27 +1975,27 @@ element.**insertBefore (node1, node2)** insere node1 como filho antes de node2.
 var p = document.createElement("p");  
 var node = document.createTextNode("Some new text");  
 //adding the text to the paragraph  
-p.**appendChild**(node);  
+p.appendChild(node);  
   
 var div = document.getElementById("demo");  
 //adding the paragraph to the div  
-div.**appendChild**(p);  
+div.appendChild(p);  
 </script>
-
+  ```
+  
 [Experimente você mesmo](https://code.sololearn.com/958/#js)
 
-  
 
 > Isso cria um novo parágrafo e o adiciona ao elemento div existente na
 > página.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1MTk0NjE5MSwxMjAzMDM2ODQ2LDE3OT
-M4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEw
-LDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMj
-A3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUz
-MzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMz
-ksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3
-ODU1NjldfQ==
+eyJoaXN0b3J5IjpbMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mz
+g4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAs
+MTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMD
+cyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMz
+MDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOS
+w3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4
+NTU2OV19
 -->
