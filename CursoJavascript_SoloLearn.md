@@ -1923,13 +1923,31 @@ el[0].href = "http://www.sololearn.com";
 > usando JavaScript.
 
 
+# Mudando Estilo
+  
+The style of HTML elements can also be changed using JavaScript.  
+All style attributes can be accessed using the **style** object of the element.  
+**For example:**
+
+<div id="demo" style="width:200px">some text</div>  
+<script>  
+var x = document.getElementById("demo");  
+**x.style.color** = "6600FF";  
+**x.style.width** = "100px";  
+</script>[Try It Yourself](https://code.sololearn.com/957/#js)
+
+  
+The code above changes the text **color** and **width** of the div element.  
+All CSS properties can be set and modified using JavaScript. Just remember, that you cannot use dashes (-) in the property names: these are replaced with camelCase versions, where the compound words begin with a capital letter.  
+For example: the  **background-color**  property should be referred to as  **backgroundColor**.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MTU5Mjc2MCwxNTczNjI5NTEwLDE5ND
-YzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEy
-ODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MD
-MsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1
-NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1Nj
-ksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2
-OTMzODQ1MzZdfQ==
+eyJoaXN0b3J5IjpbNTY1MTYzNzM5LDE1NzM2Mjk1MTAsMTk0Nj
+MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
+NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMy
+wxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0
+MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OS
+wtMTM0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5
+MzM4NDUzNl19
 -->
