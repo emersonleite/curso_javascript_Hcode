@@ -1892,13 +1892,35 @@ arr[x].innerHTML = "new text";
 > O código acima altera o texto de ambos os parágrafos para "novo
 > texto".
 
+# Alterando Atributos
+
+    
+Once you have selected the element(s) you want to work with, you can change their attributes.  
+As we have seen in the previous lessons, we can change the text content of an element using the **innerHTML** property.  
+Similarly, we can change the attributes of elements.  
+For example, we can change the **src** attribute of an image:<img id="myimg" src="orange.png" alt="" />  
+<script>  
+var el = document.getElementById("myimg");  
+el.**src** = "apple.png";  
+</script>  
+We can change the **href** attribute of a link:
+
+<a href="http://www.example.com">Some link</a>  
+<script>  
+var el = document.getElementsByTagName("a");  
+el[0].**href** = "http://www.sololearn.com";  
+</script>[Try It Yourself](https://code.sololearn.com/956/#js)
+
+  
+Practically all attributes of an element can be changed using JavaScript.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0Nz
-UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
-MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
-QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
-NTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMD
-E2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0y
-NjAyMDEwMDBdfQ==
+eyJoaXN0b3J5IjpbLTc4ODg5MzI0NywxNTczNjI5NTEwLDE5ND
+YzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEy
+ODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MD
+MsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1
+NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1Nj
+ksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2
+OTMzODQ1MzZdfQ==
 -->
