@@ -1856,14 +1856,13 @@ Usamos a propriedade **length** da matriz para percorra todos os elementos selec
   
   
 Cada elemento no DOM tem um conjunto de propriedades e métodos que fornecem informações sobre seus relacionamentos no elemento DOM :
-element.**childNodes** returns an array of an element's child nodes.  
-element.**firstChild** returns the first child node of an element.  
-element.**lastChild** returns the last child node of an element.  
-element.**hasChildNodes** returns true if an element has any child nodes, otherwise false.  
-element.**nextSibling** returns the next node at the same tree level.  
-element.**previousSibling** returns the previous node at the same tree level.  
-element.**parentNode** returns the parent node of an element.  
-We can, for example, select all child nodes of an element and change their content:
+element.**childNodes** retorna uma matriz dos nós filhos de um elemento.  
+element.**firstChild** retorna o primeiro nó filho de um elemento.  
+element.**lastChild** retorna o último nó filho de um elemento.  
+element. **hasChildNodes** retornará true se um elemento tiver algum nó filho, caso contrário, false.  
+element.**nextSibling** retorna o próximo nó no mesmo nível da árvore.  
+element.**previousSibling** retorna o nó anterior no mesmo nível da árvore.  
+element.**parentNode** retorna o nó pai de um elemento. Podemos, por exemplo, selecionar todos os nós filhos de um elemento e alterar seu conteúdo:
 
 <html>  
 <body>  
@@ -1888,11 +1887,11 @@ The code above changes the text of both paragraphs to "new text".
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg1ODgwNTEsMTk0NjMwNjM3MSwxND
-c1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5
-NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mj
-g0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIw
-MzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2Mz
-AxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwt
-MjYwMjAxMDAwXX0=
+eyJoaXN0b3J5IjpbMjAyODI4NTQ4NiwxOTQ2MzA2MzcxLDE0Nz
+UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
+MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
+QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
+NTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMD
+E2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0y
+NjAyMDEwMDBdfQ==
 -->
