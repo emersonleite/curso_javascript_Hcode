@@ -1856,6 +1856,7 @@ Usamos a propriedade **length** da matriz para percorra todos os elementos selec
   
   
 Cada elemento no DOM tem um conjunto de propriedades e métodos que fornecem informações sobre seus relacionamentos no elemento DOM :
+
 element.**childNodes** retorna uma matriz dos nós filhos de um elemento.  
 element.**firstChild** retorna o primeiro nó filho de um elemento.  
 element.**lastChild** retorna o último nó filho de um elemento.  
@@ -1893,11 +1894,11 @@ arr[x].innerHTML = "new text";
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE4NTQ2MzIsMTk0NjMwNjM3MSwxND
-c1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5
-NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mj
-g0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIw
-MzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2Mz
-AxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwt
-MjYwMjAxMDAwXX0=
+eyJoaXN0b3J5IjpbMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0Nz
+UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
+MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
+QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
+NTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMD
+E2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0y
+NjAyMDEwMDBdfQ==
 -->
