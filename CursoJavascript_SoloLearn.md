@@ -1938,17 +1938,18 @@ var x = document.getElementById("demo");
 [Experimente você mesmo](https://code.sololearn.com/957/#js)[Try It Yourself](https://code.sololearn.com/957/#js)
 
   
-The code above changes the text **color** and **width** of the div element.  
-All CSS properties can be set and modified using JavaScript. Just remember, that you cannot use dashes (-) in the property names: these are replaced with camelCase versions, where the compound words begin with a capital letter.  
-For example: the  **background-color**  property should be referred to as  **backgroundColor**.
+O código acima altera a **cor** e a **largura** do texto do elemento div.
+
+Todas as propriedades CSS podem ser definidas e modificadas usando JavaScript. Apenas lembre-se de que você não pode usar traços (-) nos nomes das propriedades: eles são substituídos pelas versões do camelCase, onde as palavras compostas começam com uma letra maiúscula.  
+Por exemplo: a propriedade **background-color** deve ser referida como **backgroundColor** .
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTM4NTU0MTAsMTU3MzYyOTUxMCwxOT
-Q2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIx
-Mjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwOD
-AzLDE1NDk4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5
-NTQyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NT
-Y5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgs
-NjkzMzg0NTM2XX0=
+eyJoaXN0b3J5IjpbNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0Nj
+MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
+NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMy
+wxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0
+MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OS
+wtMTM0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5
+MzM4NDUzNl19
 -->
