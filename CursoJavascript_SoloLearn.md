@@ -2086,9 +2086,9 @@ Para criar uma animação, precisamos alterar as propriedades de um elemento em 
 var t = setInterval(move, 500);  
 ```
 
-This code creates a timer that calls a **move**() function every 500 milliseconds.  
-Now we need to define the **move**() function, that changes the position of the box.
+Esse código cria um timer que chama uma função **move**() a cada 500 milissegundos. Agora precisamos definir a função **move**(), que altera a posição da caixa.
 
+```javascript
 // starting position  
 var pos = 0;  
 //our box element  
@@ -2098,17 +2098,17 @@ function move() {
 pos += 1;  
 box.style.left = pos+"px"; //px = pixels  
 }  
+```
 
-
-The  **move**() function increments the  **left** property of the box element by one each time it is called.
+A função **move** () incrementa a propriedade **left** do elemento box por um a cada vez que é chamado.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDkxNDE5MCwzODY2NjI3OTMsMTk5Mj
-U4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYs
-MTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mj
-k1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0
-LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLT
-ExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2
-NTAzOV19
+eyJoaXN0b3J5IjpbLTEzMjA0MDk1MDIsMzg2NjYyNzkzLDE5OT
+I1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2
+LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNj
+I5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEz
+NCwtMjA3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC
+0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4Mjgx
+NjUwMzldfQ==
 -->
