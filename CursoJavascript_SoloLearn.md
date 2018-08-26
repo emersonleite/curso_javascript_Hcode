@@ -1955,10 +1955,14 @@ element.**cloneNode** () clona um elemento e retorna o nó resultante.
 document.**createElement** (element) cria um novo nó de elemento.  
 document.**createTextNode** (text) cria um novo nó de texto. 
   
-**For example:**var node = document.**createTextNode**("Some new text");  
-This will create a new text node, but it will not appear in the document until you append it to an existing element with one of the following methods:  
-element.**appendChild(newNode)** adds a new child node to an element as the last child node.  
-element.**insertBefore(node1, node2)** inserts node1 as a child before node2.  
+**For example:
+
+var node = document.createTextNode**("Some new text");  
+
+
+Isso criará um novo nó de texto, mas ele não aparecerá no documento até você anexá-lo a um elemento existente com um dos seguintes métodos:  
+element. **appendChild (newNode)** adiciona um novo nó filho a um elemento como o último nó filho.  
+elemento. **insertBefore (node1, node2)** insere node1 como filho antes de node2.
   
 **Example:**
 
@@ -1981,11 +1985,11 @@ This creates a new paragraph and adds it to the existing div element on the page
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NT
-EyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4
-LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC
-02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQy
-NDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcxMz
-AsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4
-NDA3ODY0XX0=
+eyJoaXN0b3J5IjpbLTUxNzA1MjYwNSwxNzkzODgxNzg0LDc1Nz
+QwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2Mzcx
+LDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLT
+E1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4
+OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NS
+wtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5
+NzYzMDE2XX0=
 -->
