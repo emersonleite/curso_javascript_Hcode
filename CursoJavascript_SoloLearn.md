@@ -1815,7 +1815,7 @@ document.getElementsByTagName(name)
 No exemplo abaixo, o método **getElementById** é usado para selecionar o elemento com **id = "demo"** e alterar seu conteúdo:
 
 ```javascript
-var elem = document.**getElementById**("demo");  
+var elem = document.getElementById("demo");  
 elem.innerHTML = "Hello World!";  
 ```
 O exemplo acima supõe que o HTML contém um elemento com id = "demo", por exemplo, \<div id = "demo"> \</div>.
@@ -1855,11 +1855,11 @@ Usamos a propriedade **length** da matriz para percorra todos os elementos selec
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMD
-YxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIz
-MzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1My
-wtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0
-NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4NDA3OD
-Y0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwtMjYwMjAxMDAwLC0x
-NjI1OTE2NDE1XX0=
+eyJoaXN0b3J5IjpbMTgyNTU4MjY1OSwxOTQ2MzA2MzcxLDE0Nz
+UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
+MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
+QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
+NTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMD
+E2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0y
+NjAyMDEwMDBdfQ==
 -->
