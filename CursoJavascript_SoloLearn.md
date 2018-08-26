@@ -1947,8 +1947,40 @@ Todas as propriedades CSS podem ser definidas e modificadas usando JavaScript. A
 Por exemplo: a propriedade **background-color** deve ser referida como **backgroundColor** .
 
 
+# Criando Elementos
+  
+Use the following methods to create new nodes:  
+element.**cloneNode**() clones an element and returns the resulting node.  
+document.**createElement**(element) creates a new element node.  
+document.**createTextNode**(text) creates a new text node.  
+  
+**For example:**var node = document.**createTextNode**("Some new text");  
+This will create a new text node, but it will not appear in the document until you append it to an existing element with one of the following methods:  
+element.**appendChild(newNode)** adds a new child node to an element as the last child node.  
+element.**insertBefore(node1, node2)** inserts node1 as a child before node2.  
+  
+**Example:**
+
+<div id ="demo">some content</div>  
+  
+<script>  
+//creating a new paragraph  
+var p = document.createElement("p");  
+var node = document.createTextNode("Some new text");  
+//adding the text to the paragraph  
+p.**appendChild**(node);  
+  
+var div = document.getElementById("demo");  
+//adding the paragraph to the div  
+div.**appendChild**(p);  
+</script>[Try It Yourself](https://code.sololearn.com/958/#js)
+
+  
+This creates a new paragraph and adds it to the existing div element on the page.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NzIzMjI5Niw3NTc0MDEzMDcsNTE0NT
+eyJoaXN0b3J5IjpbMTMzNTMwODA0MCw3NTc0MDEzMDcsNTE0NT
 EyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4
 LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC
 02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQy
