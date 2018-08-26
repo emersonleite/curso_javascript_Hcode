@@ -2026,6 +2026,7 @@ Para substituir um elemento HTML, o element.**replaceChild** (newNode, oldNode) 
 
 **Por exemplo:**
 
+```javascript
 <div id="demo">  
 <p id="p1">This is a paragraph.</p>  
 <p id="p2">This is another paragraph.</p>  
@@ -2038,22 +2039,22 @@ p.appendChild(node);
   
 var parent = document.getElementById("demo");  
 var child = document.getElementById("p1");  
-parent.**replaceChild**(p, child);  
+parent.replaceChild(p, child);  
 </script>
+```
 
-[Try It Yourself](https://code.sololearn.com/960/#js)
-
+[Experimente você mesmo](https://code.sololearn.com/960/#js)
 
 > O código acima cria um novo elemento de parágrafo que substitui o
 > parágrafo p1 existente.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU2OTM0ODgxLDE5OTI1ODU4MjksLTQ4MT
-A1ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQs
-NzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMD
-YzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYx
-NSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMT
-U0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIy
-NjY1XX0=
+eyJoaXN0b3J5IjpbLTIxMjQ4NjA2MTIsMTk5MjU4NTgyOSwtND
+gxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4
+NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0Nj
+MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
+NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMy
+wxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0
+MjI2NjVdfQ==
 -->
