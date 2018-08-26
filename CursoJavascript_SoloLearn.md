@@ -1963,7 +1963,7 @@ var node = document.createTextNode("Some new text");
 
 Isso criará um novo nó de texto, mas ele não aparecerá no documento até você anexá-lo a um elemento existente com um dos seguintes métodos:  
 element. **appendChild (newNode)** adiciona um novo nó filho a um elemento como o último nó filho.  
-elemento. **insertBefore (node1, node2)** insere node1 como filho antes de node2.
+element.**insertBefore (node1, node2)** insere node1 como filho antes de node2.
   
 **Example:**
 
@@ -1990,11 +1990,11 @@ div.**appendChild**(p);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI0NzM1Mjk3LDEyMDMwMzY4NDYsMTc5Mz
-g4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAs
-MTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMD
-cyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMz
-MDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOS
-w3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4
-NTU2OV19
+eyJoaXN0b3J5IjpbLTEyODUxMzYzNjQsMTIwMzAzNjg0NiwxNz
+kzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUx
+MCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLT
+IwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1
+MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MD
+M5LDc5NTQyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1
+Nzg1NTY5XX0=
 -->
