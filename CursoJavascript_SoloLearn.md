@@ -191,8 +191,8 @@ Comentários são ignorados e não são executados. Comentários de  **linha ún
 
 ```javascript
 <script>  
-// Este é um  
-alerta de comentário de linha única ("Esta é uma caixa de alerta!");  
+// Este é um  alerta de comentário de linha única 
+alert ("Esta é uma caixa de alerta!");  
 </ script
 ```
 [Experimente você mesmo](https://code.sololearn.com/645/#js)
@@ -1854,7 +1854,7 @@ Usamos a propriedade **length** da matriz para percorra todos os elementos selec
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODU5OTgwOSwxOTQ2MzA2MzcxLDE0Nz
+eyJoaXN0b3J5IjpbMTY0MTI0NzY3NywxOTQ2MzA2MzcxLDE0Nz
 UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
 MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
 QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
