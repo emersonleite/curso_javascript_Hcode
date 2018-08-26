@@ -1978,14 +1978,18 @@ p.**appendChild**(node);
 var div = document.getElementById("demo");  
 //adding the paragraph to the div  
 div.**appendChild**(p);  
-</script>[Try It Yourself](https://code.sololearn.com/958/#js)
+</script>
+
+[Experimente você mesmo](https://code.sololearn.com/958/#js)
 
   
-This creates a new paragraph and adds it to the existing div element on the page.
+
+> Isso cria um novo parágrafo e o adiciona ao elemento div existente na
+> página.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzA1MjYwNSwxNzkzODgxNzg0LDc1Nz
+eyJoaXN0b3J5IjpbMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1Nz
 QwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2Mzcx
 LDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLT
 E1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4
