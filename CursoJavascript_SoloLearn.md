@@ -1949,10 +1949,11 @@ Por exemplo: a propriedade **background-color** deve ser referida como **backgro
 
 # Criando Elementos
   
-Use the following methods to create new nodes:  
-element.**cloneNode**() clones an element and returns the resulting node.  
-document.**createElement**(element) creates a new element node.  
-document.**createTextNode**(text) creates a new text node.  
+Use os seguintes métodos para criar novos nós:
+
+element.**cloneNode** () clona um elemento e retorna o nó resultante.  
+document.**createElement** (element) cria um novo nó de elemento.  
+document.**createTextNode** (text) cria um novo nó de texto. 
   
 **For example:**var node = document.**createTextNode**("Some new text");  
 This will create a new text node, but it will not appear in the document until you append it to an existing element with one of the following methods:  
@@ -1980,7 +1981,7 @@ This creates a new paragraph and adds it to the existing div element on the page
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNTMwODA0MCw3NTc0MDEzMDcsNTE0NT
+eyJoaXN0b3J5IjpbMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NT
 EyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4
 LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC
 02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQy
