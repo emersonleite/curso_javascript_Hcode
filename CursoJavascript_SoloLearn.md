@@ -1988,15 +1988,37 @@ div.appendChild(p);
 > Isso cria um novo parágrafo e o adiciona ao elemento div existente na
 > página.
 
+# Removing Elements
 
+  
+  
+To remove an HTML element, you must select the parent of the element and use the **removeChild**(node) method.  
+**For example:**
+
+<div id="demo">  
+<p id="p1">This is a paragraph.</p>  
+<p id="p2">This is another paragraph.</p>  
+</div>  
+  
+<script>  
+var parent = document.getElementById("demo");  
+var child = document.getElementById("p1");  
+parent.**removeChild**(child);  
+</script>[Try It Yourself](https://code.sololearn.com/959/#js)
+
+  
+This removes the paragraph with id="p1" from the page.  
+An alternative way of achieving the same result would be the use of the  **parentNode** property to get the parent of the element we want to remove:  
+var  child = document.getElementById("p1");  
+child.**parentNode**.removeChild(child);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTA1ODUxLDIwNzc5ODc0MywxMjAzMD
-M2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwx
-NTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MT
-EwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0
-OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLT
-E4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0
-NjAyMTZdfQ==
+eyJoaXN0b3J5IjpbLTI4MTg1MDg2LC00ODEwNTg1MSwyMDc3OT
+g3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1
+MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNz
+c3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0MDc4
+NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyODQsLT
+IwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAzNTEy
+NzEzMF19
 -->
