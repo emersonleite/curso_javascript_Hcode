@@ -2107,15 +2107,20 @@ O código a seguir define um timer que chama a função **move**() a cada 10 mil
 var t = setInterval(move, 10);  
 ```
 
-However, this makes our box move to the right forever. To stop the animation when the box reaches the end of the container, we add a simple check to the move() function and use the **clearInterval**() method to stop the timer.function move() {  
+No entanto, isso faz com que a nossa caixa se mova para a direita para sempre. Para parar a animação quando a caixa chega ao final do container, adicionamos uma simples verificação à função **move()** e usamos o método **clearInterval**() para parar o timer.
+
+```javascript
+function move() {  
 if(pos >= 150) {  
-**clearInterval(t);**  
+clearInterval(t);  
 }  
 else {  
 pos += 1;  
 box.style.left = pos+"px";  
 }  
 }  
+```
+
 When the left attribute of the box reaches the value of 150, the box reaches the end of the container, based on a container width of 200 and a box width of 50.  
 **The final code:**
 
@@ -2139,7 +2144,7 @@ Congratulations, you have just created your first JavaScript animation!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzMzODk0MDY4LC0xMzIwNDA5NTAyLDM4Nj
+eyJoaXN0b3J5IjpbMjg0NzIzODk2LC0xMzIwNDA5NTAyLDM4Nj
 Y2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMs
 MTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MT
 I5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgs
