@@ -1862,15 +1862,18 @@ element.**lastChild** retorna o último nó filho de um elemento.
 element. **hasChildNodes** retornará true se um elemento tiver algum nó filho, caso contrário, false.  
 element.**nextSibling** retorna o próximo nó no mesmo nível da árvore.  
 element.**previousSibling** retorna o nó anterior no mesmo nível da árvore.  
-element.**parentNode** retorna o nó pai de um elemento. Podemos, por exemplo, selecionar todos os nós filhos de um elemento e alterar seu conteúdo:
+element.**parentNode** retorna o nó pai de um elemento. 
 
+Podemos, por exemplo, selecionar todos os nós filhos de um elemento e alterar seu conteúdo:
+
+```javascript
 <html>  
 <body>  
 <div id ="demo">  
 <p>some text</p>  
 <p>some other text</p>  
 </div>  
-  
+
 <script>  
 var a = document.getElementById("demo");  
 var arr = a.childNodes;  
@@ -1880,18 +1883,21 @@ arr[x].innerHTML = "new text";
 </script>  
   
 </body>  
-</html>[Try It Yourself](https://code.sololearn.com/951/#js)
+</html>
+```
 
-  
-The code above changes the text of both paragraphs to "new text".
+[Try It Yourself](https://code.sololearn.com/951/#js)
+
+> O código acima altera o texto de ambos os parágrafos para "novo
+> texto".
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyODI4NTQ4NiwxOTQ2MzA2MzcxLDE0Nz
-UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
-MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
-QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
-NTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMD
-E2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0y
-NjAyMDEwMDBdfQ==
+eyJoaXN0b3J5IjpbMjIwNTcwNjU0LDE5NDYzMDYzNzEsMTQ3NT
+M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
+Nzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NC
+wtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1
+MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMT
+YsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2
+MDIwMTAwMF19
 -->
