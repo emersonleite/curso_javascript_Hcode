@@ -1988,12 +1988,13 @@ div.appendChild(p);
 > Isso cria um novo parágrafo e o adiciona ao elemento div existente na
 > página.
 
-# Removing Elements
+
+# Removendo Elementos
 
   
-  
-To remove an HTML element, you must select the parent of the element and use the **removeChild**(node) method.  
-**For example:**
+Para remover um elemento HTML, você deve selecionar o pai do elemento e usar o **removeChild**(node) método .  
+
+**Por exemplo:**
 
 <div id="demo">  
 <p id="p1">This is a paragraph.</p>  
@@ -2014,7 +2015,7 @@ child.**parentNode**.removeChild(child);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4MTg1MDg2LC00ODEwNTg1MSwyMDc3OT
+eyJoaXN0b3J5IjpbNjExMTkzMTgyLC00ODEwNTg1MSwyMDc3OT
 g3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1
 MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNz
 c3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0MDc4
