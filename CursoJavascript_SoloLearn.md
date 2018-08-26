@@ -1929,13 +1929,14 @@ O estilo dos elementos HTML também pode ser alterado usando JavaScript.
 Todos os atributos de estilo podem ser acessados ​​usando o objeto de **estilo** do elemento. 
 **Por exemplo:**
 
+```javascript
 <div id="demo" style="width:200px">some text</div>  
 <script>  
 var x = document.getElementById("demo");  
-**x.style.color** = "6600FF";  
-**x.style.width** = "100px";  
+x.style.color = "6600FF";  
+x.style.width = "100px";  
 </script>
-
+```
 
 [Experimente você mesmo](https://code.sololearn.com/957/#js)
 
@@ -1947,11 +1948,11 @@ Por exemplo: a propriedade **background-color** deve ser referida como **backgro
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNj
-I5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEz
-NCwtMjA3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC
-0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4Mjgx
-NjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMT
-YsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2
-MjE1MDI2OF19
+eyJoaXN0b3J5IjpbMTQ5NzIzMjI5Niw3NTc0MDEzMDcsNTE0NT
+EyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4
+LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC
+02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC0yMDQy
+NDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUxMjcxMz
+AsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2MzAxNiwxNzE4
+NDA3ODY0XX0=
 -->
