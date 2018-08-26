@@ -1852,7 +1852,7 @@ O script resultará no seguinte HTML:
 
 Usamos a propriedade **length** da matriz para percorra todos os elementos selecionados no exemplo acima.
 
-# Trabalhando com DOM
+## Trabalhando com DOM
   
   
 Cada elemento no DOM tem um conjunto de propriedades e métodos que fornecem informações sobre seus relacionamentos no elemento DOM :
@@ -1892,7 +1892,7 @@ arr[x].innerHTML = "new text";
 > O código acima altera o texto de ambos os parágrafos para "novo
 > texto".
 
-# Alterando Atributos
+## Alterando Atributos
 
 Depois de selecionar o (s) elemento (s) com o qual deseja trabalhar, você poderá alterar seus atributos.  
 Como vimos nas lições anteriores, podemos alterar o conteúdo de texto de um elemento usando a propriedade **innerHTML** .  
@@ -1923,7 +1923,7 @@ el[0].href = "http://www.sololearn.com";
 > usando JavaScript.
 
 
-# Mudando Estilo
+## Mudando Estilo
   
 O estilo dos elementos HTML também pode ser alterado usando JavaScript.  
 Todos os atributos de estilo podem ser acessados ​​usando o objeto de **estilo** do elemento. 
@@ -1947,7 +1947,7 @@ Todas as propriedades CSS podem ser definidas e modificadas usando JavaScript. A
 Por exemplo: a propriedade **background-color** deve ser referida como **backgroundColor** .
 
 
-# Criando Elementos
+## Criando Elementos
   
 Use os seguintes métodos para criar novos nós:
 
@@ -1989,7 +1989,7 @@ div.appendChild(p);
 > página.
 
 
-# Removendo Elementos
+## Removendo Elementos
 
   
 Para remover um elemento HTML, você deve selecionar o pai do elemento e usar o **removeChild**(node) método .  
@@ -2020,7 +2020,7 @@ parent.removeChild(child);
 
 
 
-# # Substituindo Elementos
+## Substituindo Elementos
 
 Para substituir um elemento HTML, o element.**replaceChild** (newNode, oldNode) método é usado.  
 
@@ -2147,11 +2147,11 @@ Parabéns, você acabou de criar sua primeira animação em JavaScript!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMz
-IwNDA5NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1
-MSwyMDc3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1Nz
-QwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2Mzcx
-LDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLT
-E1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4
-OTkyODRdfQ==
+eyJoaXN0b3J5IjpbLTEzOTM0NjQ1NTUsLTE0MDk3MDg5MzYsNz
+I1MDQ1NDUwLC0xMzIwNDA5NTAyLDM4NjY2Mjc5MywxOTkyNTg1
+ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMsMTIwMzAzNjg0NiwxNz
+kzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUx
+MCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLT
+IwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1
+MzMwODAzXX0=
 -->
