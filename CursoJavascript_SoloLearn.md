@@ -2048,7 +2048,7 @@ parent.replaceChild(p, child);
 > O código acima cria um novo elemento de parágrafo que substitui o
 > parágrafo p1 existente.
 
-# Animações  
+## Animações  
   
 Agora que sabemos como selecionar e alterar elementos DOM , podemos criar uma animação simples.  Vamos criar uma página HTML simples com um elemento de **caixa (box)** que será animado usando JS.
 ```css
@@ -2147,11 +2147,11 @@ Parabéns, você acabou de criar sua primeira animação em JavaScript!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM0NjQ1NTUsLTE0MDk3MDg5MzYsNz
-I1MDQ1NDUwLC0xMzIwNDA5NTAyLDM4NjY2Mjc5MywxOTkyNTg1
-ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMsMTIwMzAzNjg0NiwxNz
-kzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUx
-MCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLT
-IwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1
-MzMwODAzXX0=
+eyJoaXN0b3J5IjpbODYwODE5MjIwLC0xNDA5NzA4OTM2LDcyNT
+A0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3OTMsMTk5MjU4NTgy
+OSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mz
+g4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAs
+MTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMD
+cyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMz
+MDgwM119
 -->
