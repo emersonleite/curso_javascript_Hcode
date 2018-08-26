@@ -1965,10 +1965,11 @@ Isso criará um novo nó de texto, mas ele não aparecerá no documento até voc
 element. **appendChild (newNode)** adiciona um novo nó filho a um elemento como o último nó filho.  
 element.**insertBefore (node1, node2)** insere node1 como filho antes de node2.
   
-**Example:**
+**Exemplo:**
 
+```javascript
 <div id ="demo">some content</div>  
-  
+ 
 <script>  
 //creating a new paragraph  
 var p = document.createElement("p");  
@@ -1990,11 +1991,11 @@ div.**appendChild**(p);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODUxMzYzNjQsMTIwMzAzNjg0NiwxNz
-kzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUx
-MCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLT
-IwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1
-MzMwODAzLDE1NDk4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MD
-M5LDc5NTQyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1
-Nzg1NTY5XX0=
+eyJoaXN0b3J5IjpbLTI1MTk0NjE5MSwxMjAzMDM2ODQ2LDE3OT
+M4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEw
+LDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMj
+A3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUz
+MzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMz
+ksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3
+ODU1NjldfQ==
 -->
