@@ -1827,7 +1827,7 @@ var arr = document.getElementsByClassName("demo");
 arr[1].innerHTML = "Hi";
 ```
 
-Da mesma forma, o método **getElementsByTagName** retorna todos os elementos do nome da marca especificada como uma matriz .
+Da mesma forma, o método **getElementsByTagName** retorna todos os elementos do nome da marca (tag) especificada como uma matriz .
 O exemplo a seguir obtém todos os elementos de parágrafo da página e altera seu conteúdo:
 
 ```javascript
@@ -1854,11 +1854,11 @@ Usamos a propriedade **length** da matriz para percorra todos os elementos selec
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MTI0NzY3NywxOTQ2MzA2MzcxLDE0Nz
-UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
-MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4OTkyOD
-QsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NSwtMjAz
-NTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5NzYzMD
-E2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgsNjkzMzg0NTM2LC0y
-NjAyMDEwMDBdfQ==
+eyJoaXN0b3J5IjpbLTE3OTc5NDUzMjQsMTk0NjMwNjM3MSwxND
+c1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5
+NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mj
+g0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIw
+MzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2Mz
+AxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwt
+MjYwMjAxMDAwXX0=
 -->
