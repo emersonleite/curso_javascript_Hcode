@@ -2013,17 +2013,18 @@ parent.removeChild(child);
   
 Isso remove o parágrafo com id = "p1" da página.
 
-An alternative way of achieving the same result would be the use of the  **parentNode** property to get the parent of the element we want to remove:  
-var  child = document.getElementById("p1");  
-child.**parentNode**.removeChild(child);
+> Uma maneira alternativa de obter o mesmo resultado seria o uso da
+> propriedade **parentNode** para obter o pai do elemento que queremos
+> remover:   var child = document. getElementById ("p1");  
+> child.**parentNode**.removeChild(child);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODI2NjczMjMsLTQ4MTA1ODUxLDIwNz
-c5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3
-LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NT
-M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
-Nzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NC
-wtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1
-MTI3MTMwXX0=
+eyJoaXN0b3J5IjpbMTk5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nz
+k4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcs
+NTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mz
+c3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3
+ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mjg0LC
+0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIwMzUx
+MjcxMzBdfQ==
 -->
