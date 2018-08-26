@@ -1886,18 +1886,18 @@ arr[x].innerHTML = "new text";
 </html>
 ```
 
-[Try It Yourself](https://code.sololearn.com/951/#js)
+[Experimente você mesmo](https://code.sololearn.com/951/#js)
 
 > O código acima altera o texto de ambos os parágrafos para "novo
 > texto".
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIwNTcwNjU0LDE5NDYzMDYzNzEsMTQ3NT
-M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
-Nzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MDMsMTU0OTg5OTI4NC
-wtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1NDIyNjY1LC0yMDM1
-MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1NjksLTEzNDk3NjMwMT
-YsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2OTMzODQ1MzYsLTI2
-MDIwMTAwMF19
+eyJoaXN0b3J5IjpbLTE3NDE4NTQ2MzIsMTk0NjMwNjM3MSwxND
+c1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5
+NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMywxNTQ5ODk5Mj
+g0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0MjI2NjUsLTIw
+MzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OSwtMTM0OTc2Mz
+AxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5MzM4NDUzNiwt
+MjYwMjAxMDAwXX0=
 -->
