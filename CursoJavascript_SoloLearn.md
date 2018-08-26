@@ -2121,9 +2121,11 @@ box.style.left = pos+"px";
 }  
 ```
 
-When the left attribute of the box reaches the value of 150, the box reaches the end of the container, based on a container width of 200 and a box width of 50.  
-**The final code:**
+Quando o atributo left da caixa atinge o valor de 150, a caixa chega ao final do container, com base em uma largura de container de 200 e uma largura de caixa de 50.  
 
+**O código final:**
+
+```javascript
 var pos = 0;  
 //our box element  
 var box = document.getElementById("box");  
@@ -2137,14 +2139,16 @@ else {
 pos += 1;  
 box.style.left = pos+"px";  
 }  
-}[Try It Yourself](https://code.sololearn.com/953/#js)
+}
+```
 
+[Tente você mesmo](https://code.sololearn.com/953/#js)
   
-Congratulations, you have just created your first JavaScript animation!
+Parabéns, você acabou de criar sua primeira animação em JavaScript!
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg0NzIzODk2LC0xMzIwNDA5NTAyLDM4Nj
+eyJoaXN0b3J5IjpbNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLDM4Nj
 Y2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMs
 MTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MT
 I5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgs
