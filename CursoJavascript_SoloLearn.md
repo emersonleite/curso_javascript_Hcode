@@ -1935,7 +1935,9 @@ var x = document.getElementById("demo");
 **x.style.color** = "6600FF";  
 **x.style.width** = "100px";  
 </script>
-[Experimente você mesmo](https://code.sololearn.com/957/#js)[Try It Yourself](https://code.sololearn.com/957/#js)
+
+
+[Experimente você mesmo](https://code.sololearn.com/957/#js)
 
   
 O código acima altera a **cor** e a **largura** do texto do elemento div.
@@ -1945,11 +1947,11 @@ Por exemplo: a propriedade **background-color** deve ser referida como **backgro
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0Nj
-MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
-NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMzMDgwMy
-wxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOSw3OTU0
-MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4NTU2OS
-wtMTM0OTc2MzAxNiwxNzE4NDA3ODY0LC0xMDYyMTUwMjY4LDY5
-MzM4NDUzNl19
+eyJoaXN0b3J5IjpbNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNj
+I5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEz
+NCwtMjA3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC
+0xMTUzMzA4MDMsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4Mjgx
+NjUwMzksNzk1NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMT
+YsNTU3ODU1NjksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2
+MjE1MDI2OF19
 -->
