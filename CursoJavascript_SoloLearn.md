@@ -1903,7 +1903,7 @@ Por exemplo, podemos alterar o atributo **src** de uma imagem:
 <img id="myimg" src="orange.png" alt="" />  
 <script>  
 var el = document.getElementById("myimg");  
-el.**src** = "apple.png";  
+el.src = "apple.png";  
 </script>  
 ```
 
@@ -1923,11 +1923,11 @@ Praticamente todos os atributos de um elemento podem ser alterados usando JavaSc
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzc5ODU5MCwxNTczNjI5NTEwLDE5ND
-YzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEy
-ODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0OTEzLC0xMTUzMzA4MD
-MsMTU0OTg5OTI4NCwtMjA0MjQ0NTMsLTE4MjgxNjUwMzksNzk1
-NDIyNjY1LC0yMDM1MTI3MTMwLC02NDc0NjAyMTYsNTU3ODU1Nj
-ksLTEzNDk3NjMwMTYsMTcxODQwNzg2NCwtMTA2MjE1MDI2OCw2
-OTMzODQ1MzZdfQ==
+eyJoaXN0b3J5IjpbLTE3MTQ5MjAxMzAsMTU3MzYyOTUxMCwxOT
+Q2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIx
+Mjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwOD
+AzLDE1NDk4OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5
+NTQyMjY2NSwtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NT
+Y5LC0xMzQ5NzYzMDE2LDE3MTg0MDc4NjQsLTEwNjIxNTAyNjgs
+NjkzMzg0NTM2XX0=
 -->
