@@ -1955,8 +1955,8 @@ element.**cloneNode** () clona um elemento e retorna o nó resultante.
 document.**createElement** (element) cria um novo nó de elemento.  
 document.**createTextNode** (text) cria um novo nó de texto. 
   
-**For example:
-
+**Por exemplo:**
+```Javascrip
 var node = document.createTextNode**("Some new text");  
 
 
@@ -1989,11 +1989,11 @@ div.**appendChild**(p);
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1Nz
-QwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2Mzcx
-LDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLT
-E1Nzk0MDc4NjcsLTY5MjMzNDkxMywtMTE1MzMwODAzLDE1NDk4
-OTkyODQsLTIwNDI0NDUzLC0xODI4MTY1MDM5LDc5NTQyMjY2NS
-wtMjAzNTEyNzEzMCwtNjQ3NDYwMjE2LDU1Nzg1NTY5LC0xMzQ5
-NzYzMDE2XX0=
+eyJoaXN0b3J5IjpbNjkyNjg3NzQxLDEyMDMwMzY4NDYsMTc5Mz
+g4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAs
+MTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMD
+cyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIzMzQ5MTMsLTExNTMz
+MDgwMywxNTQ5ODk5Mjg0LC0yMDQyNDQ1MywtMTgyODE2NTAzOS
+w3OTU0MjI2NjUsLTIwMzUxMjcxMzAsLTY0NzQ2MDIxNiw1NTc4
+NTU2OV19
 -->
