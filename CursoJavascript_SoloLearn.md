@@ -2289,14 +2289,31 @@ Na **capturing**, o evento do elemento mais externo é tratado primeiro e depois
 > **capturing** **desce** o DOM .  
 > **bubbling** vai **até** o DOM .
 
+## Capturing vs. Bubbling
+
+ The **addEventListener**() method allows you to specify the propagation type with the "**useCapture**" parameter.
+  
+addEventListener(event, function, **useCapture**)  
+
+
+The default value is **false**, which means the bubbling propagation is used; when the value is set to **true**, the event uses the capturing propagation./
+
+
+/Capturing propagation  
+elem1.addEventListener("click", myFunction, **true**);  
+  
+//Bubbling propagation  
+elem2.addEventListener("click", myFunction, **false**);  
+This is particularly useful when you have the same event handled for multiple elements in the  DOM  hierarchy.
+
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwMzExNTIzNiw2NjU1NzE4NzgsLTE5Nz
-k5MzQxNDEsODYwODE5MjIwLC0xNDA5NzA4OTM2LDcyNTA0NTQ1
-MCwtMTMyMDQwOTUwMiwzODY2NjI3OTMsMTk5MjU4NTgyOSwtND
-gxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4
-NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0Nj
-MwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4
-NjE1XX0=
+eyJoaXN0b3J5IjpbLTE5Njg2MjI1NDksNjY1NTcxODc4LC0xOT
+c5OTM0MTQxLDg2MDgxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0
+NTAsLTEzMjA0MDk1MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLT
+Q4MTA1ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3
+ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5ND
+YzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEy
+ODYxNV19
 -->
