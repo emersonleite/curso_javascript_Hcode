@@ -2156,17 +2156,41 @@ Eventos HTML comuns incluem:
 Eventos correspondentes podem ser adicionados a elementos HTML como atributos. Por exemplo: 
 ```javascript
 <p>onclick = "someFunc()">algum texto</p>
-
-
 ```
+
+## Manipulando Eventos  
+  
+Vamos exibir um pop-up de alerta quando o usuário clicar em um botão especificado:
+```javascript
+<button **onclick="show()"**>Click Me</button>  
+<script>  
+function show() {  
+alert("Hi there");  
+}  
+</script>
+```
+
+[Try It Yourself](https://code.sololearn.com/962/#js)
+
+  
+Event handlers can be assigned to elements.  
+**For example:**
+
+var x = document.getElementById("demo");  
+x.onclick = function () {  
+document.body.innerHTML = Date();  
+}[Try It Yourself](https://code.sololearn.com/963/#js)
+
+  
+You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDcxNDUzMyw4NjA4MTkyMjAsLTE0MD
-k3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLDM4NjY2Mjc5
-MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMsMTIwMz
-AzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MTI5MDgs
-MTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNj
-ExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMz
-NDkxM119
+eyJoaXN0b3J5IjpbLTE5MjU4NDAxNDcsODYwODE5MjIwLC0xND
+A5NzA4OTM2LDcyNTA0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3
+OTMsMTk5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMD
+MwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4
+LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMD
+YxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIz
+MzQ5MTNdfQ==
 -->
