@@ -2280,19 +2280,19 @@ Você pode adicionar eventos a todos os elementos HTML.
 
 Existem duas formas de propagação de evento no HTML DOM : **bubbling** e **capturing** .  
   
-A propagação de eventos permite a definição da ordem dos elementos quando ocorre um evento. Se você tiver um elemento <p> dentro de um elemento <div> e o usuário clicar no elemento <p>, qual evento de "clique" do elemento deve ser tratado primeiro?  
+A propagação de eventos permite a definição da ordem dos elementos quando ocorre um evento. Se você tiver um elemento \<p> dentro de um elemento \<div> e o usuário clicar no elemento \<p>, qual evento de "clique" do elemento deve ser tratado primeiro?  
   
-Em **bubbling** , o evento do elemento mais interno é tratado primeiro e, em seguida, o evento do elemento externo é manipulado. O evento de clique do elemento <p> é tratado primeiro, seguido pelo evento de clique do elemento <div>.  
+Em **bubbling** , o evento do elemento mais interno é tratado primeiro e, em seguida, o evento do elemento externo é manipulado. O evento de clique do elemento \<p> é tratado primeiro, seguido pelo evento de clique do elemento \<div>.  
   
-Na **capturing**, o evento do elemento mais externo é tratado primeiro e depois o interno. O evento click do elemento <div> é tratado primeiro, seguido pelo evento click do elemento <p>.  
+Na **capturing**, o evento do elemento mais externo é tratado primeiro e depois o interno. O evento click do elemento \<div> é tratado primeiro, seguido pelo evento click do elemento \<p>.  
 
-**capturing** **desce** o DOM .  
-**bubbling** vai **até** o DOM .
+> **capturing** **desce** o DOM .  
+> **bubbling** vai **até** o DOM .
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyMTYyODEzMiw2NjU1NzE4NzgsLTE5Nz
+eyJoaXN0b3J5IjpbLTMwMzExNTIzNiw2NjU1NzE4NzgsLTE5Nz
 k5MzQxNDEsODYwODE5MjIwLC0xNDA5NzA4OTM2LDcyNTA0NTQ1
 MCwtMTMyMDQwOTUwMiwzODY2NjI3OTMsMTk5MjU4NTgyOSwtND
 gxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4
