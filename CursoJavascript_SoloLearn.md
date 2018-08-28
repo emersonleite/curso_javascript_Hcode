@@ -2386,6 +2386,7 @@ slider.src = images[num];
   
 A variável **num** mantém a imagem atual. Os cliques dos botões seguinte e anterior são tratados por suas funções correspondentes, que alteram a origem da imagem para a próxima imagem / anterior na matriz .
 
+
 ## Validação de formulários (Form Validation)
 
 O HTML5 adiciona alguns atributos que permitem a validação de formulários. Por exemplo, o atributo **required** pode ser adicionado a um campo de entrada para torná-lo obrigatório para preenchimento. A  
@@ -2430,11 +2431,11 @@ O formulário não será enviado se o evento **onsubmit** retornar **false**.
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYyMTcxMTc1LDIxMTU4MjE4NDEsLTE1OD
-Q4MzQ4MDEsNjY1NTcxODc4LC0xOTc5OTM0MTQxLDg2MDgxOTIy
-MCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1MDIsMz
-g2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0
-MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxND
-UxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1
-OF19
+eyJoaXN0b3J5IjpbLTExNDU2Njc5NzUsOTYyMTcxMTc1LDIxMT
+U4MjE4NDEsLTE1ODQ4MzQ4MDEsNjY1NTcxODc4LC0xOTc5OTM0
+MTQxLDg2MDgxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLT
+EzMjA0MDk1MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1
+ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNz
+U3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYz
+NzFdfQ==
 -->
