@@ -2220,7 +2220,43 @@ x.value= x.value.toUpperCase();
   
 É importante entender os eventos, porque eles são uma parte essencial das páginas dinâmicas da web.
 
+## Ouvintes de eventos (Event Listeners)
 
+  
+  
+The **addEventListener**() method attaches an event handler to an element without overwriting existing event handlers. You can add _many_ event handlers to one element.  
+You can also add many event handlers of the same type to one element, i.e., two "click" events.
+
+element.addEventListener(event, function, useCapture);  
+The first parameter is the event's **type** (like "click" or "mousedown").  
+The second parameter is the **function** we want to call when the event occurs.  
+The third parameter is a Boolean value specifying whether to use event **bubbling** or event **capturing**. This parameter is optional, and will be described in the next lesson.  
+Note that you don't use the "**on**" prefix for this event; use "**click**" instead of "**onclick**".  
+**Example:**element.**addEventListener("click", myFunction)**;  
+element.**addEventListener("mouseover", myFunction);**  
+  
+function myFunction() {  
+alert("Hello World!");  
+}  
+This adds two event listeners to the element.  
+We can remove one of the listeners:element.**removeEventListener**("mouseover", myFunction);  
+Let's create an event handler that removes itself after being executed:
+
+<button id="demo">Start</button>  
+  
+<script>  
+var btn = document.getElementById("demo");  
+**btn.addEventListener**("click", myFunction);  
+  
+function myFunction() {  
+alert(Math.random());  
+btn.**removeEventListener**("click", myFunction);  
+}  
+</script>[Try It Yourself](https://code.sololearn.com/965/#js)
+
+  
+After clicking the button, an alert with a random number displays and the event listener is removed.  
+Internet Explorer version 8 and lower do not support the  **addEventListener**() and  **removeEventListener**() methods. However, you can use the document.**attachEvent**()  method  to attach event handlers in Internet Explorer.
 
 
 
@@ -2229,7 +2265,7 @@ You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjc2NDU0NzMsLTE5Nzk5MzQxNDEsOD
+eyJoaXN0b3J5IjpbLTE2OTQwNTM0MDgsLTE5Nzk5MzQxNDEsOD
 YwODE5MjIwLC0xNDA5NzA4OTM2LDcyNTA0NTQ1MCwtMTMyMDQw
 OTUwMiwzODY2NjI3OTMsMTk5MjU4NTgyOSwtNDgxMDU4NTEsMj
 A3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEz
