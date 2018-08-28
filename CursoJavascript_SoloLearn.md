@@ -2151,13 +2151,18 @@ Você pode escrever o código JavaScript que é executado quando ocorre um **eve
 Quando um evento ocorre em um elemento de destino, uma função de **manipulador** é executada.  
 Eventos HTML comuns incluem:
 
+![](https://api.sololearn.com/DownloadFile?id=2777)
+
+Eventos correspondentes podem ser adicionados a elementos HTML como atributos.Por exemplo: 
+```javasc<p**onclick = "someFunc ()"**> algum texto </ p>
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDI3MDU0LDg2MDgxOTIyMCwtMTQwOT
-cwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1MDIsMzg2NjYyNzkz
-LDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0MywxMjAzMD
-M2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwx
-NTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MT
-EwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQwNzg2NywtNjkyMzM0
-OTEzXX0=
+eyJoaXN0b3J5IjpbMTk5NTA3NDE5Myw4NjA4MTkyMjAsLTE0MD
+k3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLDM4NjY2Mjc5
+MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMsMTIwMz
+AzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MTI5MDgs
+MTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNzc3NTgsLTEwNj
+ExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0MDc4NjcsLTY5MjMz
+NDkxM119
 -->
