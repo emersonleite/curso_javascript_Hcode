@@ -2424,13 +2424,13 @@ return false;
   
 Nós retornamos **true** somente quando os valores não estão em branco e são iguais.
 
-O formulário não será enviado se o evento **onsubmit** retornar **false**.
+O formulário não será enviado se o evento **onsubmit** retornar **false**. 
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MDg1NzQ5LDIxMTU4MjE4NDEsLTE1OD
+eyJoaXN0b3J5IjpbOTYyMTcxMTc1LDIxMTU4MjE4NDEsLTE1OD
 Q4MzQ4MDEsNjY1NTcxODc4LC0xOTc5OTM0MTQxLDg2MDgxOTIy
 MCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1MDIsMz
 g2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0
