@@ -2388,21 +2388,24 @@ A variável **num** mantém a imagem atual. Os cliques dos botões seguinte e an
 
 ## Validação de formulários (Form Validation)
 
-O HTML5 adiciona alguns atributos que permitem a validação de formulários. Por exemplo, o atributo **obrigatório** pode ser adicionado a um campo de entrada para torná-lo obrigatório para preenchimento. A  
+O HTML5 adiciona alguns atributos que permitem a validação de formulários. Por exemplo, o atributo **required** pode ser adicionado a um campo de entrada para torná-lo obrigatório para preenchimento. A  
 validação mais complexa de formulários pode ser feita usando JavaScript.  
 O elemento form tem um evento **onsubmit** que pode ser manipulado para executar a validação.  
 Por exemplo, vamos criar um formulário com duas entradas e um botão. O texto em ambos os campos deve ser o mesmo e não em branco para passar a validação.
 
-
-<form **onsubmit="return validate()"** method="post">  
+```javascript
+<form onsubmit="return validate()" method="post">  
 Number: <input type="text" name="num1" id="num1" />  
 <br />  
 Repeat: <input type="text" name="num2" id="num2" />  
 <br />  
 <input type="submit" value="Submit" />  
 </form>  
-Now we need to define the **validate**() function:
+```
 
+Agora precisamos definir afunção **validate**()::
+
+```javascript
 function **validate**() {  
 var n1 = document.getElementById("num1");  
 var n2 = document.getElementById("num2");  
@@ -2413,6 +2416,8 @@ return true;
 }  
 alert("The values should be equal and not blank");  
 return false;  
+```
+
 }[Try It Yourself](https://code.sololearn.com/966/#js)
 
   
@@ -2423,7 +2428,7 @@ The form will not get submitted if its  **onsubmit** event returns  **false**.
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwOTg0NjY0MywyMTE1ODIxODQxLC0xNT
+eyJoaXN0b3J5IjpbLTczOTEwMzU2MiwyMTE1ODIxODQxLC0xNT
 g0ODM0ODAxLDY2NTU3MTg3OCwtMTk3OTkzNDE0MSw4NjA4MTky
 MjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLD
 M4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3
