@@ -2224,13 +2224,15 @@ x.value= x.value.toUpperCase();
 
   
   
-The **addEventListener**() method attaches an event handler to an element without overwriting existing event handlers. You can add _many_ event handlers to one element.  
-You can also add many event handlers of the same type to one element, i.e., two "click" events.
+O método **addEventListener**()  atribui um processador de eventos para um elemento sem substituir tratadores de eventos existentes. Você pode adicionar _muitos_ manipuladores de eventos a um elemento.  
+Você também pode adicionar muitos manipuladores de eventos do mesmo tipo a um elemento, ou seja, dois eventos de "clique".
 
-element.addEventListener(event, function, useCapture);  
-The first parameter is the event's **type** (like "click" or "mousedown").  
-The second parameter is the **function** we want to call when the event occurs.  
-The third parameter is a Boolean value specifying whether to use event **bubbling** or event **capturing**. This parameter is optional, and will be described in the next lesson.  
+element.**addEventListener**(event, function, useCapture);  
+
+O primeiro parâmetro é o **tipo** do evento (como "click" ou "mousedown").  
+O segundo parâmetro é a **função** que queremos chamar quando o evento ocorre.  O terceiro parâmetro é um valor booleano que especifica se é necessário usar o **bubbling de** evento ou a **captura de** evento. Este parâmetro é opcional e será descrito na próxima lição.
+
+
 Note that you don't use the "**on**" prefix for this event; use "**click**" instead of "**onclick**".  
 **Example:**element.**addEventListener("click", myFunction)**;  
 element.**addEventListener("mouseover", myFunction);**  
@@ -2265,11 +2267,11 @@ You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQwNTM0MDgsLTE5Nzk5MzQxNDEsOD
-YwODE5MjIwLC0xNDA5NzA4OTM2LDcyNTA0NTQ1MCwtMTMyMDQw
-OTUwMiwzODY2NjI3OTMsMTk5MjU4NTgyOSwtNDgxMDU4NTEsMj
-A3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEz
-MDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxND
-c1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5
-NDA3ODY3XX0=
+eyJoaXN0b3J5IjpbMzIxOTYxMDIwLC0xOTc5OTM0MTQxLDg2MD
+gxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1
+MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNz
+c5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3
+LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NT
+M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
+Nzg2N119
 -->
