@@ -1,7 +1,5 @@
 # Welcome to PHP
 
-  
-  
 PHP: Hypertext Preprocessor (**PHP**) is a free, highly popular, open source scripting language. PHP scripts are executed on the **server**.  
   
 Just a short list of what PHP is capable of:  
@@ -19,5 +17,5 @@ PHP has enough power to work at the core of  **WordPress**, the busiest blogging
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNDI0MzUyNV19
+eyJoaXN0b3J5IjpbMjE4MDAwMjc5XX0=
 -->
