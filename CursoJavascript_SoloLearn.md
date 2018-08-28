@@ -2362,7 +2362,7 @@ var images = [
 ];  
 var num = 0;  
   
-function **next**() {  
+function next() {  
 var slider = document.getElementById("slider");  
 num++;  
 if(num >= images.length) {  
@@ -2371,7 +2371,7 @@ num = 0;
 slider.src = images[num];  
 }  
   
-function **prev**() {  
+function prev() {  
 var slider = document.getElementById("slider");  
 num--;  
 if(num < 0) {  
@@ -2431,7 +2431,7 @@ O formulário não será enviado se o evento **onsubmit** retornar **false**.
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDU2Njc5NzUsOTYyMTcxMTc1LDIxMT
+eyJoaXN0b3J5IjpbLTE3NjE5NzIxMDMsOTYyMTcxMTc1LDIxMT
 U4MjE4NDEsLTE1ODQ4MzQ4MDEsNjY1NTcxODc4LC0xOTc5OTM0
 MTQxLDg2MDgxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLT
 EzMjA0MDk1MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1
