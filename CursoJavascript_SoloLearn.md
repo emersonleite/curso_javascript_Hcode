@@ -2329,20 +2329,59 @@ width="200px" height="100px"/>
 
   
 Em seguida, vamos definir nossas imagens de amostra em uma matriz (array):
+
 ```javascript
 var images = [  
 "http://www.sololearn.com/uploads/slider/1.jpg",  
 "http://www.sololearn.com/uploads/slider/2.jpg",  
 "http://www.sololearn.com/uploads/slider/3.jpg"  
 ];  
+```
+Vamos usar três imagens de amostra que carregamos em nosso servidor. Você pode usar qualquer número de imagens.
 
+Agora precisamos lidar com os cliques do botão Next e Prev e chamar as funções correspondentes para alterar a imagem.  
+  
+**HTML:**<div>  
+<button **onclick="prev()"**> Prev </button>  
+<img id="slider" src="http://www.sololearn.com/uploads/slider/1.jpg"  
+width="200px" height="100px"/>  
+<button **onclick="next()"**> Next </button>  
+</div>  
+**JS:**
 
-We are going to use three sample images that we have uploaded to our server. You can use any number of images.
+var images = [  
+"http://www.sololearn.com/uploads/slider/1.jpg",  
+"http://www.sololearn.com/uploads/slider/2.jpg",  
+"http://www.sololearn.com/uploads/slider/3.jpg"  
+];  
+var num = 0;  
+  
+function **next**() {  
+var slider = document.getElementById("slider");  
+num++;  
+if(num >= images.length) {  
+num = 0;  
+}  
+slider.src = images[num];  
+}  
+  
+function **prev**() {  
+var slider = document.getElementById("slider");  
+num--;  
+if(num < 0) {  
+num = images.length-1;  
+}  
+slider.src = images[num];  
+}[Try It Yourself](https://code.sololearn.com/955/#js)
+
+  
+The **num** variable holds the current image. The next and previous button clicks are handled by their corresponding functions, which change the source of the image to the next/previous image in the array.  
+We have created a functioning image slider!
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MjA5NjcwNSwtMTU4NDgzNDgwMSw2Nj
+eyJoaXN0b3J5IjpbLTc1NjM0MzA1NSwtMTU4NDgzNDgwMSw2Nj
 U1NzE4NzgsLTE5Nzk5MzQxNDEsODYwODE5MjIwLC0xNDA5NzA4
 OTM2LDcyNTA0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3OTMsMT
 k5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4
