@@ -1,21 +1,37 @@
-# Welcome to PHP
 
-PHP: Hypertext Preprocessor (**PHP**) is a free, highly popular, open source scripting language. PHP scripts are executed on the **server**.  
+# Bem-vindo ao PHP
+
   
-Just a short list of what PHP is capable of:  
-- Generating dynamic page content  
-- Creating, opening, reading, writing, deleting, and closing files on the server  
-- Collecting form data  
-- Adding, deleting, and modifying information stored in your database  
-- controlling user-access  
-- encrypting data  
-- and much more!  
+
+PHP: O Hypertext Preprocessor (PHP) é uma linguagem de script livre, altamente popular e de código aberto. Scripts PHP são executados no servidor.
+
   
-Before starting this tutorial, you should have a basic understanding of **HTML**.  
-PHP has enough power to work at the core of  **WordPress**, the busiest blogging system on the web. It also has the degree of depth required to run  **Facebook**, the web's largest social network!
+
+Apenas uma pequena lista do que o PHP é capaz de:
+
+- Gerar conteúdo de página dinâmica
+
+- Criar, abrir, ler, gravar, excluir e fechar arquivos no servidor
+
+- Coletando dados de formulário
+
+- Adicionando, excluindo e modificando informações armazenadas em seu banco de dados
+
+- controlando o acesso de usuários
+
+- criptografando dados
+
+- e muito mais!
+
+  
+
+Antes de iniciar este tutorial, você deve ter um conhecimento básico de HTML.
+
+  
+O PHP tem poder suficiente para trabalhar no núcleo do WordPress, o sistema de blogs mais ativo da web. Ele também tem o grau de profundidade necessário para executar o Facebook, a maior rede social da web!
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE4MDAwMjc5XX0=
+eyJoaXN0b3J5IjpbLTE3NzE3MTA5MywyMTgwMDAyNzldfQ==
 -->
