@@ -2252,20 +2252,22 @@ Podemos remover um dos ouvintes:
 ```javascript
 element.removeEventListener("mouseover", myFunction);  
 ```
-
-Let's create an event handler that removes itself after being executed:
-
+Vamos criar um evento que remove a ele mesmo após ser executado:
+```javascript
 <button id="demo">Start</button>  
   
 <script>  
 var btn = document.getElementById("demo");  
-**btn.addEventListener**("click", myFunction);  
+btn.addEventListener("click", myFunction);  
   
 function myFunction() {  
 alert(Math.random());  
-btn.**removeEventListener**("click", myFunction);  
+btn.removeEventListener("click", myFunction);  
 }  
-</script>[Try It Yourself](https://code.sololearn.com/965/#js)
+</script>
+```
+
+[Experimente você mesmo](https://code.sololearn.com/965/#js)
 
   
 After clicking the button, an alert with a random number displays and the event listener is removed.  
@@ -2277,7 +2279,7 @@ Você pode adicionar eventos a todos os elementos HTML.
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzODkzOTgxMCwtMTk3OTkzNDE0MSw4Nj
+eyJoaXN0b3J5IjpbMTAzMzUxMTcyOCwtMTk3OTkzNDE0MSw4Nj
 A4MTkyMjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5
 NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMD
 c3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMw
