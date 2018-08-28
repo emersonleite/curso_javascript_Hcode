@@ -2205,16 +2205,22 @@ window.onload = function() {
 O evento **onchange** é usado principalmente em caixas de texto. O manipulador de eventos é chamado quando o texto dentro da caixa de texto é alterado e o foco é perdido do elemento.  
 **Por exemplo:**
 
-<input type="text" id="name" **onchange**="change()">  
+```javascript
+<input type="text" id="name" onchange="change()">  
 <script>  
 function change() {  
 var x = document.getElementById("name");  
 x.value= x.value.toUpperCase();  
 }  
-</script>[Try It Yourself](https://code.sololearn.com/964/#js)
+</script>
+```
+
+[Experimente você mesmo](https://code.sololearn.com/964/#js)
 
   
-It’s important to understand events, because they are an essential part of dynamic web pages.
+É importante entender os eventos, porque eles são uma parte essencial das páginas dinâmicas da web.
+
+
 
 
 
@@ -2223,11 +2229,11 @@ You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNDI2NTYwLC0xOTc5OTM0MTQxLDg2MD
-gxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1
-MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNz
-c5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3
-LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NT
-M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
-Nzg2N119
+eyJoaXN0b3J5IjpbLTE3Mjc2NDU0NzMsLTE5Nzk5MzQxNDEsOD
+YwODE5MjIwLC0xNDA5NzA4OTM2LDcyNTA0NTQ1MCwtMTMyMDQw
+OTUwMiwzODY2NjI3OTMsMTk5MjU4NTgyOSwtNDgxMDU4NTEsMj
+A3Nzk4NzQzLDEyMDMwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEz
+MDcsNTE0NTEyOTA4LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxND
+c1Mzc3NzU4LC0xMDYxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5
+NDA3ODY3XX0=
 -->
