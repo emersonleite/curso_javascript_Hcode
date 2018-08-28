@@ -2406,7 +2406,7 @@ Repeat: <input type="text" name="num2" id="num2" />
 Agora precisamos definir afunção **validate**()::
 
 ```javascript
-function **validate**() {  
+function validate() {  
 var n1 = document.getElementById("num1");  
 var n2 = document.getElementById("num2");  
 if(n1.value != "" && n2.value != "") {  
@@ -2416,23 +2416,25 @@ return true;
 }  
 alert("The values should be equal and not blank");  
 return false;  
+}
 ```
 
-}[Try It Yourself](https://code.sololearn.com/966/#js)
+[Experimente você mesmo](https://code.sololearn.com/966/#js)
 
   
-We return **true** only when the values are not blank and are equal.  
-The form will not get submitted if its  **onsubmit** event returns  **false**.
+Nós retornamos **true** somente quando os valores não estão em branco e são iguais.
+
+O formulário não será enviado se o evento **onsubmit** retornar **false**.
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczOTEwMzU2MiwyMTE1ODIxODQxLC0xNT
-g0ODM0ODAxLDY2NTU3MTg3OCwtMTk3OTkzNDE0MSw4NjA4MTky
-MjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLD
-M4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3
-NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MT
-Q1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNzc3
-NThdfQ==
+eyJoaXN0b3J5IjpbMTA0MDg1NzQ5LDIxMTU4MjE4NDEsLTE1OD
+Q4MzQ4MDEsNjY1NTcxODc4LC0xOTc5OTM0MTQxLDg2MDgxOTIy
+MCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1MDIsMz
+g2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0
+MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxND
+UxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1
+OF19
 -->
