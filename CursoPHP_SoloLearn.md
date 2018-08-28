@@ -28,10 +28,47 @@ Apenas uma pequena lista do que o PHP é capaz de:
 Antes de iniciar este tutorial, você deve ter um conhecimento básico de HTML.
 
   
+
 O PHP tem poder suficiente para trabalhar no núcleo do WordPress, o sistema de blogs mais ativo da web. Ele também tem o grau de profundidade necessário para executar o Facebook, a maior rede social da web!
 
+  
 
-> Written with [StackEdit](https://stackedit.io/).
+# HP Syntax
+
+  
+  
+
+A PHP script starts with <?php and ends with ?>:<?php
+
+// PHP code goes here
+
+?>
+
+Here is an example of a simple PHP file. The PHP script uses a built in function called "echo" to output the text "Hello World!" to a web page.
+
+<html>
+
+<head>
+
+<title>My First PHP Page</title>
+
+</head>
+
+<body>
+
+<?php
+
+echo "Hello World!";
+
+?>
+
+</body>
+
+</html>[Try It Yourself](https://code.sololearn.com/454/#php)
+
+  
+PHP statements end with semicolons (;).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzE3MTA5MywyMTgwMDAyNzldfQ==
+eyJoaXN0b3J5IjpbLTgwMDYzOTY5MCwtMTc3MTcxMDkzLDIxOD
+AwMDI3OV19
 -->
