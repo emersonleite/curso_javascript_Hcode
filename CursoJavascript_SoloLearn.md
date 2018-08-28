@@ -2185,6 +2185,32 @@ document.body.innerHTML = Date();
 
 [Experimente você mesmo](https://code.sololearn.com/963/#js)
 
+## Events
+
+  
+Os eventos **onload** e **onunload** são acionados quando o usuário entra ou sai da página. Isso pode ser útil ao executar ações depois que a página é carregada.
+
+```javascript
+<body onload="doSomething()">  
+```
+
+Similarly, the **window.onload** event can be used to run code after the whole page is loaded.**window.onload** = function() {  
+//some code  
+}  
+The **onchange** event is mostly used on textboxes. The event handler gets called when the text inside the textbox changes and focus is lost from the element.  
+**For example:**
+
+<input type="text" id="name" **onchange**="change()">  
+<script>  
+function change() {  
+var x = document.getElementById("name");  
+x.value= x.value.toUpperCase();  
+}  
+</script>[Try It Yourself](https://code.sololearn.com/964/#js)
+
+  
+It’s important to understand events, because they are an essential part of dynamic web pages.
+
 
 
   
@@ -2192,11 +2218,11 @@ You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzk5MzQxNDEsODYwODE5MjIwLC0xND
-A5NzA4OTM2LDcyNTA0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3
-OTMsMTk5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMD
-MwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4
-LDE1NzM2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMD
-YxMTA2MTM0LC0yMDcyMTI4NjE1LC0xNTc5NDA3ODY3LC02OTIz
-MzQ5MTNdfQ==
+eyJoaXN0b3J5IjpbLTk3ODc4OTY2MSwtMTk3OTkzNDE0MSw4Nj
+A4MTkyMjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5
+NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMD
+c3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMw
+Nyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0Nz
+UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
+MDc4NjddfQ==
 -->
