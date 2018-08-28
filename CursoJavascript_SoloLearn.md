@@ -2148,17 +2148,21 @@ Parabéns, você acabou de criar sua primeira animação em JavaScript!
 ## Eventos 
   
 Você pode escrever o código JavaScript que é executado quando ocorre um **evento** , como quando um usuário clica em um elemento HTML, move o mouse ou envia um formulário.  
-Quando um evento ocorre em um elemento de destino, uma função de **manipulador** é executada.  
+Quando um evento ocorre em um elemento de destino, uma função de **manipulador** (**handler**) é executada.  
 Eventos HTML comuns incluem:
 
 ![](https://api.sololearn.com/DownloadFile?id=2777)
 
-Eventos correspondentes podem ser adicionados a elementos HTML como atributos.Por exemplo: 
-```javasc<p**onclick = "someFunc ()"**> algum texto </ p>
+Eventos correspondentes podem ser adicionados a elementos HTML como atributos. Por exemplo: 
+```javascript
+<p>onclick = "someFunc()">algum texto</p>
+
+
+```
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTA3NDE5Myw4NjA4MTkyMjAsLTE0MD
+eyJoaXN0b3J5IjpbLTQ1MDcxNDUzMyw4NjA4MTkyMjAsLTE0MD
 k3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLDM4NjY2Mjc5
 MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3NDMsMTIwMz
 AzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MTQ1MTI5MDgs
