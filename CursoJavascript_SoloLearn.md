@@ -2308,16 +2308,38 @@ elem1.addEventListener("click", myFunction, true);
 elem2.addEventListener("click", myFunction, false);  
 ```
 
-Isso é particularmente útil quando você tem o mesmo evento manipulado para vários elementos na hierarquia DOM .
+Isso é particularmente útil quando você tem o mesmo evento manipulado para vários elementos na hierarquia DOM.
+
+
+## Image Slider
+
+Agora podemos criar um projeto de controle deslizante de imagem de amostra. As imagens serão alteradas usando os botões "Next" e "Prev".  
+Agora, vamos criar nosso HTML, que inclui uma imagem e os dois botões de navegação:
+
+```javascript
+<div>  
+<button> Prev </button>  
+<img id="slider" src="http://www.sololearn.com/uploads/slider/1.jpg"  
+width="200px" height="100px"/>  
+<button> Next </button>  
+</div>[Try It Yourself](https://code.sololearn.com/954/#js)
+```
+  
+Next, let's define our sample images in an array:var images = [  
+"http://www.sololearn.com/uploads/slider/1.jpg",  
+"http://www.sololearn.com/uploads/slider/2.jpg",  
+"http://www.sololearn.com/uploads/slider/3.jpg"  
+];  
+We are going to use three sample images that we have uploaded to our server. You can use any number of images.
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQ4MzQ4MDEsNjY1NTcxODc4LC0xOT
-c5OTM0MTQxLDg2MDgxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0
-NTAsLTEzMjA0MDk1MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLT
-Q4MTA1ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3
-ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5ND
-YzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEy
-ODYxNV19
+eyJoaXN0b3J5IjpbLTExNDY5MTAwODIsLTE1ODQ4MzQ4MDEsNj
+Y1NTcxODc4LC0xOTc5OTM0MTQxLDg2MDgxOTIyMCwtMTQwOTcw
+ODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1MDIsMzg2NjYyNzkzLD
+E5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0MywxMjAzMDM2
+ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNT
+czNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEw
+NjEzNF19
 -->
