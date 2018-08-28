@@ -2194,11 +2194,16 @@ Os eventos **onload** e **onunload** são acionados quando o usuário entra ou s
 <body onload="doSomething()">  
 ```
 
-Similarly, the **window.onload** event can be used to run code after the whole page is loaded.**window.onload** = function() {  
+Da mesma forma, o evento **window.onload** pode ser usado para executar o código depois que a página inteira é carregada.
+
+```javascript
+window.onload = function() {  
 //some code  
 }  
-The **onchange** event is mostly used on textboxes. The event handler gets called when the text inside the textbox changes and focus is lost from the element.  
-**For example:**
+```
+
+O evento **onchange** é usado principalmente em caixas de texto. O manipulador de eventos é chamado quando o texto dentro da caixa de texto é alterado e o foco é perdido do elemento.  
+**Por exemplo:**
 
 <input type="text" id="name" **onchange**="change()">  
 <script>  
@@ -2218,11 +2223,11 @@ You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk3ODc4OTY2MSwtMTk3OTkzNDE0MSw4Nj
-A4MTkyMjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5
-NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMD
-c3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMw
-Nyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0Nz
-UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
-MDc4NjddfQ==
+eyJoaXN0b3J5IjpbLTkzNDI2NTYwLC0xOTc5OTM0MTQxLDg2MD
+gxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1
+MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNz
+c5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3
+LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NT
+M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
+Nzg2N119
 -->
