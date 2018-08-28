@@ -2322,24 +2322,31 @@ Agora, vamos criar nosso HTML, que inclui uma imagem e os dois botões de navega
 <img id="slider" src="http://www.sololearn.com/uploads/slider/1.jpg"  
 width="200px" height="100px"/>  
 <button> Next </button>  
-</div>[Try It Yourself](https://code.sololearn.com/954/#js)
+</div>
 ```
+
+[Experimente você mesmo](https://code.sololearn.com/954/#js)
+
   
-Next, let's define our sample images in an array:var images = [  
+Em seguida, vamos definir nossas imagens de amostra em uma matriz (array):
+```javascript
+var images = [  
 "http://www.sololearn.com/uploads/slider/1.jpg",  
 "http://www.sololearn.com/uploads/slider/2.jpg",  
 "http://www.sololearn.com/uploads/slider/3.jpg"  
 ];  
+
+
 We are going to use three sample images that we have uploaded to our server. You can use any number of images.
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDY5MTAwODIsLTE1ODQ4MzQ4MDEsNj
-Y1NTcxODc4LC0xOTc5OTM0MTQxLDg2MDgxOTIyMCwtMTQwOTcw
-ODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1MDIsMzg2NjYyNzkzLD
-E5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0MywxMjAzMDM2
-ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNT
-czNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEw
-NjEzNF19
+eyJoaXN0b3J5IjpbLTY2MjA5NjcwNSwtMTU4NDgzNDgwMSw2Nj
+U1NzE4NzgsLTE5Nzk5MzQxNDEsODYwODE5MjIwLC0xNDA5NzA4
+OTM2LDcyNTA0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3OTMsMT
+k5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4
+NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1Nz
+M2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2
+MTM0XX0=
 -->
