@@ -2289,6 +2289,7 @@ Na **capturing**, o evento do elemento mais externo é tratado primeiro e depois
 > **capturing** **desce** o DOM .  
 > **bubbling** vai **até** o DOM .
 
+
 ## Capturing vs. Bubbling
 
 O método **addEventListener**() permite que você especifique o tipo de propagação com o parâmetro **useCapture**.
@@ -2297,24 +2298,26 @@ O método **addEventListener**() permite que você especifique o tipo de propaga
 addEventListener(event, function, useCapture)  
 ```
 
-O valor padrão é **false** , o que significa que a propagação de bubbling é usada; quando o valor é definido como **true** , o evento usa a propagação de captura.
+O valor padrão é **false** , o que significa que a propagação de bubbling é usada; quando o valor é definido como **true** , o evento usa a propagação de capturing.
 
-
-/Capturing propagation  
-elem1.addEventListener("click", myFunction, **true**);  
+```javascript
+//Capturing propagation  
+elem1.addEventListener("click", myFunction, true);  
   
 //Bubbling propagation  
-elem2.addEventListener("click", myFunction, **false**);  
-This is particularly useful when you have the same event handled for multiple elements in the  DOM  hierarchy.
+elem2.addEventListener("click", myFunction, false);  
+```
+
+Isso é particularmente útil quando você tem o mesmo evento manipulado para vários elementos na hierarquia DOM .
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE1NzAwMzYyLDY2NTU3MTg3OCwtMTk3OT
-kzNDE0MSw4NjA4MTkyMjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUw
-LC0xMzIwNDA5NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00OD
-EwNTg1MSwyMDc3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0
-LDc1NzQwMTMwNyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2Mz
-A2MzcxLDE0NzUzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2
-MTVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODQ4MzQ4MDEsNjY1NTcxODc4LC0xOT
+c5OTM0MTQxLDg2MDgxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0
+NTAsLTEzMjA0MDk1MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLT
+Q4MTA1ODUxLDIwNzc5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3
+ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5ND
+YzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEy
+ODYxNV19
 -->
