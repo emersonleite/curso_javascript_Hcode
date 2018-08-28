@@ -2386,17 +2386,48 @@ slider.src = images[num];
   
 A variável **num** mantém a imagem atual. Os cliques dos botões seguinte e anterior são tratados por suas funções correspondentes, que alteram a origem da imagem para a próxima imagem / anterior na matriz .
 
+## Validação de formulários (Form Validation)
 
+O HTML5 adiciona alguns atributos que permitem a validação de formulários. Por exemplo, o atributo **obrigatório** pode ser adicionado a um campo de entrada para torná-lo obrigatório para preenchimento. A  
+validação mais complexa de formulários pode ser feita usando JavaScript.  
+O elemento form tem um evento **onsubmit** que pode ser manipulado para executar a validação.  
+Por exemplo, vamos criar um formulário com duas entradas e um botão. O texto em ambos os campos deve ser o mesmo e não em branco para passar a validação.
+
+
+<form **onsubmit="return validate()"** method="post">  
+Number: <input type="text" name="num1" id="num1" />  
+<br />  
+Repeat: <input type="text" name="num2" id="num2" />  
+<br />  
+<input type="submit" value="Submit" />  
+</form>  
+Now we need to define the **validate**() function:
+
+function **validate**() {  
+var n1 = document.getElementById("num1");  
+var n2 = document.getElementById("num2");  
+if(n1.value != "" && n2.value != "") {  
+if(n1.value == n2.value) {  
+return true;  
+}  
+}  
+alert("The values should be equal and not blank");  
+return false;  
+}[Try It Yourself](https://code.sololearn.com/966/#js)
+
+  
+We return **true** only when the values are not blank and are equal.  
+The form will not get submitted if its  **onsubmit** event returns  **false**.
 
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNTgyMTg0MSwtMTU4NDgzNDgwMSw2Nj
-U1NzE4NzgsLTE5Nzk5MzQxNDEsODYwODE5MjIwLC0xNDA5NzA4
-OTM2LDcyNTA0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3OTMsMT
-k5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4
-NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1Nz
-M2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2
-MTM0XX0=
+eyJoaXN0b3J5IjpbLTkwOTg0NjY0MywyMTE1ODIxODQxLC0xNT
+g0ODM0ODAxLDY2NTU3MTg3OCwtMTk3OTkzNDE0MSw4NjA4MTky
+MjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5NTAyLD
+M4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMDc3OTg3
+NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMwNyw1MT
+Q1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0NzUzNzc3
+NThdfQ==
 -->
