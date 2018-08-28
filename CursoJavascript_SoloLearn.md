@@ -2384,17 +2384,19 @@ slider.src = images[num];
 [Experimente você mesmo](https://code.sololearn.com/955/#js)
 
   
-The **num** variable holds the current image. The next and previous button clicks are handled by their corresponding functions, which change the source of the image to the next/previous image in the array.  
-We have created a functioning image slider!
+A variável **num** mantém a imagem atual. Os cliques dos botões seguinte e anterior são tratados por suas funções correspondentes, que alteram a origem da imagem para a próxima imagem / anterior na matriz .
+
+
+
 
  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI4NzExMTUsLTE1ODQ4MzQ4MDEsNj
-Y1NTcxODc4LC0xOTc5OTM0MTQxLDg2MDgxOTIyMCwtMTQwOTcw
-ODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1MDIsMzg2NjYyNzkzLD
-E5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNzc5ODc0MywxMjAzMDM2
-ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3LDUxNDUxMjkwOCwxNT
-czNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NTM3Nzc1OCwtMTA2MTEw
-NjEzNF19
+eyJoaXN0b3J5IjpbMjExNTgyMTg0MSwtMTU4NDgzNDgwMSw2Nj
+U1NzE4NzgsLTE5Nzk5MzQxNDEsODYwODE5MjIwLC0xNDA5NzA4
+OTM2LDcyNTA0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3OTMsMT
+k5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMDMwMzY4
+NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4LDE1Nz
+M2Mjk1MTAsMTk0NjMwNjM3MSwxNDc1Mzc3NzU4LC0xMDYxMTA2
+MTM0XX0=
 -->
