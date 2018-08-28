@@ -2162,7 +2162,7 @@ Eventos correspondentes podem ser adicionados a elementos HTML como atributos. P
   
 Vamos exibir um pop-up de alerta quando o usuário clicar em um botão especificado:
 ```javascript
-<button **onclick="show()"**>Click Me</button>  
+<button onclick="show()">Click Me</button>  
 <script>  
 function show() {  
 alert("Hi there");  
@@ -2170,23 +2170,29 @@ alert("Hi there");
 </script>
 ```
 
-[Try It Yourself](https://code.sololearn.com/962/#js)
+[Experimente você mesmo](https://code.sololearn.com/962/#js)
 
   
-Event handlers can be assigned to elements.  
-**For example:**
+Manipuladores de eventos podem ser atribuídos a elementos.  
+**Por exemplo:**
 
+```javascript
 var x = document.getElementById("demo");  
 x.onclick = function () {  
 document.body.innerHTML = Date();  
-}[Try It Yourself](https://code.sololearn.com/963/#js)
+}
+```
+
+[Experimente você mesmo](https://code.sololearn.com/963/#js)
+
+
 
   
 You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjU4NDAxNDcsODYwODE5MjIwLC0xND
+eyJoaXN0b3J5IjpbLTE5Nzk5MzQxNDEsODYwODE5MjIwLC0xND
 A5NzA4OTM2LDcyNTA0NTQ1MCwtMTMyMDQwOTUwMiwzODY2NjI3
 OTMsMTk5MjU4NTgyOSwtNDgxMDU4NTEsMjA3Nzk4NzQzLDEyMD
 MwMzY4NDYsMTc5Mzg4MTc4NCw3NTc0MDEzMDcsNTE0NTEyOTA4
