@@ -2249,6 +2249,7 @@ Isso adiciona dois ouvintes de evento ao elemento.
 Podemos remover um dos ouvintes:
 
 element.**removeEventListener**("mouseover", myFunction);  
+
 Let's create an event handler that removes itself after being executed:
 
 <button id="demo">Start</button>  
@@ -2265,7 +2266,8 @@ btn.**removeEventListener**("click", myFunction);
 
   
 After clicking the button, an alert with a random number displays and the event listener is removed.  
-Internet Explorer version 8 and lower do not support the  **addEventListener**() and  **removeEventListener**() methods. However, you can use the document.**attachEvent**()  method  to attach event handlers in Internet Explorer.
+
+O Internet Explorer versão 8 e inferior não suporta os métodos **addEventListener**() e **removeEventListener**(). No entanto, você pode usar o documento. **attachEvent**() método para anexar manipuladores de eventos no Internet Explorer.
 
 
 
@@ -2274,11 +2276,11 @@ You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4MDk5NzI2MSwtMTk3OTkzNDE0MSw4Nj
-A4MTkyMjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5
-NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMD
-c3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMw
-Nyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0Nz
-UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
-MDc4NjddfQ==
+eyJoaXN0b3J5IjpbNTUxMDcxMjU0LC0xOTc5OTM0MTQxLDg2MD
+gxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1
+MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNz
+c5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3
+LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NT
+M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
+Nzg2N119
 -->
