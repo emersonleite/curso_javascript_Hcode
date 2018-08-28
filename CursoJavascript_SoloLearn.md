@@ -2233,15 +2233,22 @@ O primeiro parâmetro é o **tipo** do evento (como "click" ou "mousedown").
 O segundo parâmetro é a **função** que queremos chamar quando o evento ocorre.  O terceiro parâmetro é um valor booleano que especifica se é necessário usar o **bubbling de** evento ou a **captura de** evento. Este parâmetro é opcional e será descrito na próxima lição.
 
 
-Note that you don't use the "**on**" prefix for this event; use "**click**" instead of "**onclick**".  
-**Example:**element.**addEventListener("click", myFunction)**;  
+Note que você não usa o prefixo " **on** " para este evento; use " **click** " em vez de " **onclick** ".
+
+**Exemplo**:
+
+**element.**addEventListener("click", myFunction)**;  
 element.**addEventListener("mouseover", myFunction);**  
   
 function myFunction() {  
 alert("Hello World!");  
 }  
-This adds two event listeners to the element.  
-We can remove one of the listeners:element.**removeEventListener**("mouseover", myFunction);  
+
+
+Isso adiciona dois ouvintes de evento ao elemento.  
+Podemos remover um dos ouvintes:
+
+element.**removeEventListener**("mouseover", myFunction);  
 Let's create an event handler that removes itself after being executed:
 
 <button id="demo">Start</button>  
@@ -2267,11 +2274,11 @@ You can attach events to almost all HTML elements.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIxOTYxMDIwLC0xOTc5OTM0MTQxLDg2MD
-gxOTIyMCwtMTQwOTcwODkzNiw3MjUwNDU0NTAsLTEzMjA0MDk1
-MDIsMzg2NjYyNzkzLDE5OTI1ODU4MjksLTQ4MTA1ODUxLDIwNz
-c5ODc0MywxMjAzMDM2ODQ2LDE3OTM4ODE3ODQsNzU3NDAxMzA3
-LDUxNDUxMjkwOCwxNTczNjI5NTEwLDE5NDYzMDYzNzEsMTQ3NT
-M3Nzc1OCwtMTA2MTEwNjEzNCwtMjA3MjEyODYxNSwtMTU3OTQw
-Nzg2N119
+eyJoaXN0b3J5IjpbMTM4MDk5NzI2MSwtMTk3OTkzNDE0MSw4Nj
+A4MTkyMjAsLTE0MDk3MDg5MzYsNzI1MDQ1NDUwLC0xMzIwNDA5
+NTAyLDM4NjY2Mjc5MywxOTkyNTg1ODI5LC00ODEwNTg1MSwyMD
+c3OTg3NDMsMTIwMzAzNjg0NiwxNzkzODgxNzg0LDc1NzQwMTMw
+Nyw1MTQ1MTI5MDgsMTU3MzYyOTUxMCwxOTQ2MzA2MzcxLDE0Nz
+UzNzc3NTgsLTEwNjExMDYxMzQsLTIwNzIxMjg2MTUsLTE1Nzk0
+MDc4NjddfQ==
 -->
