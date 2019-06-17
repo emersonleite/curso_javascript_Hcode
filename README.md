@@ -1,4 +1,4 @@
 # aprendendoJavascript
 Aprendendo Javascript - notas de aulas 
 
-Teste
+Teste de aprendizado

@@ -55,6 +55,7 @@
 
 -   [toString()](http://developer.mozilla.org/en-US/docs/JavaScript/Reference/Global_Objects/Function/ToString "Converts a Boolean value to a string, and returns the result")
 -   [valueOf()](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Boolean/valueOf "Returns the primitive value of a Boolean object")
+
 <!--stackedit_data:
 eyJoaXN0b3J5IjpbLTI1NjA0MjY1MF19
 -->
