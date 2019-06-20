@@ -800,7 +800,7 @@ Como você pode ver, o ** for loop clássico** tem **três** componentes ou inst
 O exemplo abaixo cria um loop **for** que imprime os números de 1 a 5.
 
 ```javascript
-for ( **i = 1** ; **i <= 5** ; **i ++** ) {  
+for (i = 1 ; i <= 5 ; i++ ) {  
 document.write (i + "<br />");  
 }
 ```
