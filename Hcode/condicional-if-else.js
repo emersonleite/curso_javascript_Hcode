@@ -23,7 +23,3 @@ if (cor === "verde") {
 }
 
 
-/**
- * CONDICIONAL SWITCH
- */
-

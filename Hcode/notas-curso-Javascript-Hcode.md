@@ -143,6 +143,16 @@ if (cor === "verde") {
 }
 ```
 
+## Funções
+
+- 3 tipos.
+
+Funções comuns
+Funções anônimas
+Arrows functions.
+
+
+
 
 
 
