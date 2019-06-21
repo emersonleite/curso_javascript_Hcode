@@ -6,6 +6,8 @@
  * Model - Acesso aos dados
  * 
  * Arquivo que fará a instanciação da classe CalcController.
+ * 
+ * window.calculator deixa global
  */
 
- let calculator = new CalcController;
+ window.calculator = new CalcController;

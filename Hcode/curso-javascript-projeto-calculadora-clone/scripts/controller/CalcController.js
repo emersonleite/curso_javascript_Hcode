@@ -9,27 +9,38 @@
  * 
  * DOM - Document object model
  * BOM - Browser Object Model 
+ * 
+ * Para visualizar a arvore de objetos, basta digitar 'document' no console.
+ * colocando 'dir(document)' se verá os objetos.
+ * Para visualizar a arvore de objetos da janela, com atributos e métodos aplicáveis, basta digitar 'window' no console.
+ * 
  */
 
 class CalcController {
-    constructor(){                        // Definindo o construtor
-        this._displayCalc = "0";           // Valor de início no display (números)
-        this._currentDate;                  // Valor da data atual
+    constructor(){                                                      // Definindo o construtor
+        this._displayCalcEl = document.querySelector("#display");       //Selecinando o elemento que representa o display
+        this._dateEl = document.querySelector("#data"); 
+        this._timeEl = document.querySelector("#hora"); 
+        this._currentDate;                                              // Valor da data atual
         this.initialize();
     }
 
+    // Método para inicialização de alguns dados
+
     initialize(){
 
+        this._dateEl.innerHTML = "01/01/1970";
+        this._timeEl.innerHTML = "00:00"; 
     }
 
     // Definindo métodos getters e setters
 
     get displayCalc(){                     //Mostrando o valor
-        return this._displayCalc;
+        return this._displayCalcEl.innerHTML;
     }
 
     set displayCalc(valor){                 // Atribuindo o valor 
-        this._displayCalc = valor;
+        this._displayCalcEl.innerHTML = valor;
     }
 
     get currentDate(){
