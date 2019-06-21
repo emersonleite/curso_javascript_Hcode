@@ -6,12 +6,20 @@
  * # private: acessível somente atributos e métodos da própria classe
  * # _ depois de this definem que o atributo ou método é privado
  * Métodos getters e setters para acesso e atribuição de valores
+ * 
+ * DOM - Document object model
+ * BOM - Browser Object Model 
  */
 
 class CalcController {
     constructor(){                        // Definindo o construtor
         this._displayCalc = "0";           // Valor de início no display (números)
-        this._dataAtual;                  // Valor da data atual
+        this._currentDate;                  // Valor da data atual
+        this.initialize();
+    }
+
+    initialize(){
+
     }
 
     // Definindo métodos getters e setters
@@ -24,12 +32,12 @@ class CalcController {
         this._displayCalc = valor;
     }
 
-    get dataAtual(){
-        return this._dataAtual;
+    get currentDate(){
+        return this._currentDate;
     }
 
-    set dataAtual(valor){
-        return this._dataAtual = valor;
+    set currentDate(valor){
+        return this._currentDate = valor;
     }
 
 }
