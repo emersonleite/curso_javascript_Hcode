@@ -21,7 +21,7 @@ class CalcController {
         this._displayCalcEl = document.querySelector("#display");       //Selecinando o elemento que representa o display
         this._dateEl = document.querySelector("#data"); 
         this._timeEl = document.querySelector("#hora"); 
-        this._currentDate;                                              // Valor da data atual
+        this._currentDate = "01/07/1976";                                              // Valor da data atual
         this.initialize();
     }
 
@@ -52,3 +52,5 @@ class CalcController {
     }
 
 }
+
+// Aula C05, minuto 4:33.
