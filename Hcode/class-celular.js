@@ -14,11 +14,11 @@
  let celular = function(){
 
     let cor2 = "preto";
-    this.cor = "prata"; // this permite o acesso do atributo. Semm o this ele é como que uma variável.
-    this.ligar = function(){
+    this.cor = "prata";                             // this permite o acesso do atributo. Semm o this ele é como que uma variável.
+    this.ligar = function(){                        // Método sendo criado com this. ligar sem parênteses .
         console.log("Ligação sendo realizada");
         return 'ligando';
-    } // Método sendo criado com this. ligar sem parênteses .
+    } 
 }
 
  let objeto = new celular(); // o parenteses é por que se chama um método construtor da classe
