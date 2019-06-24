@@ -10,45 +10,83 @@
  * DOM - Document object model
  * BOM - Browser Object Model 
  * 
+ * 
  * Para visualizar a arvore de objetos, basta digitar 'document' no console.
  * colocando 'dir(document)' se verá os objetos.
  * Para visualizar a arvore de objetos da janela, com atributos e métodos aplicáveis, basta digitar 'window' no console.
  * 
+ * 
+ * setInterval - função executada em um intervalo de tempo. O tempo é marcado em milisegundos.
+ * setTimeout - tempo fixo, uma vez. 
  */
 
 class CalcController {
-    constructor(){                                                      // Definindo o construtor
-        this._displayCalcEl = document.querySelector("#display");       //Selecinando o elemento que representa o display
+    // Definindo o construtor
+    constructor(){     
+        //Selecinando o elemento que representa o display       
+        this._locale = 'pt-BR';                                         
+        this._displayCalcEl = document.querySelector("#display");       
         this._dateEl = document.querySelector("#data"); 
         this._timeEl = document.querySelector("#hora"); 
-        this._currentDate = "01/07/1976";                                              // Valor da data atual
+        this._currentDate;                                             
         this.initialize();
     }
 
-    // Método para inicialização de alguns dados
-
+    /**
+     * Métodos para inicialização de alguns dados
+     **/
     initialize(){
+        // Evitar lapso de um segundo sem data/ hora na tela, ao recarregar
+        this.setDisplayDateTime();
 
-        this._dateEl.innerHTML = "01/01/1970";
-        this._timeEl.innerHTML = "00:00"; 
+        setInterval(()=>{
+            this.setDisplayDateTime();            
+        }, 1000);
     }
 
-    // Definindo métodos getters e setters
+    setDisplayDateTime(){
+        this.displayDate = this.currentDate.toLocaleDateString(this._locale,{
+            day:"2-digit",      // para colocar data por extenso - 2 digitos
+            month:"long",       // para colocar data por extenso - mês escrito longo
+            year: "numeric"     // para colocar data por extenso - Ano numérico
+        });
+        this.displayTime = this.currentDate.toLocaleTimeString(this._locale);
+    }
+
+    /**
+     * Definindo métodos getters e setters
+     **/ 
+
+    get displayTime(){
+        return this._timeEl.innerHTML;
+    }
+
+    set displayTime(value){
+        this._timeEl.innerHTML = value;
+    }
+
+    get displayDate(){
+        return this._dateEl.innerHTML;
+    }
+
+    set displayDate(value){
+        this._dateEl.innerHTML = value;
+    }
 
     get displayCalc(){                     //Mostrando o valor
         return this._displayCalcEl.innerHTML;
     }
 
-    set displayCalc(valor){                 // Atribuindo o valor 
-        this._displayCalcEl.innerHTML = valor;
+    set displayCalc(value){                 // Atribuindo o valor 
+        this._displayCalcEl.innerHTML = value;
     }
 
     get currentDate(){
-        return this._currentDate;
+        return new Date();                  // Data atual
     }
 
-    set currentDate(valor){
-        return this._currentDate = valor;
+    set currentDate(value){
+        this._currentDate = value;
     }
 
 }
