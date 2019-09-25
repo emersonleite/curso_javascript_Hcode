@@ -20,4 +20,4 @@ console.log(carros[5].getFullYear()); // mostando o ano do objeto com índice 5
 
 carros.forEach(function(value, index){
     console.log(index, value)
-}); //Recebe uma função anônima
+}); //Recebe uma função anônima.
